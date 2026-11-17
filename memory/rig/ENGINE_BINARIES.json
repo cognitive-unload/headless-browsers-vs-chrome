@@ -1,0 +1,12 @@
+{
+  "three_engine_image": "sha256:94b391782aa042272956ee8d4c6ccbdb75bd00d36648d97e08145be1b19b1739",
+  "chrome_image": "sha256:7e44291716e341b3c0426e6d740a581e073fe0076d177a0a2b155f9fd9a3f3ca",
+  "binary_sha256": {
+    "agent-browser": "c4351f3802ffa5254d8c69f20a52e2fcf56925c6016fcf4203db25a07d811379",
+    "lightpanda": "53eb34da09159dcf8f04865dbfe3e63e9a652062684495aa7ced5ddd7c82e8b0",
+    "moli": "48f14e3bc36a5f450836080cf802acb62a5814d9b5e2e3f4056b7c583fa1d2e0",
+    "obscura": "c1400eec0b1572ea9b583b1544feafb0b25cea4e155b353dbba9c144d94ae6e3",
+    "obscura-worker": "d1025e540736b494d5c3fefe5abc09f3a774c65d9be891d818b0eb374d34dd72"
+  },
+  "provenance": "Hashes read from stopped three-engine smoke container d30bb6f47f40 on the test host; original archives checked against published SHA256 in smoke ARTIFACT_RECEIPTS. Extracted Moli/Obscura hashes differ from their archive hashes. No new downloads or versions."
+}

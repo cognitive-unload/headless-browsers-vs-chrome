@@ -1,0 +1,4 @@
+{
+  "error": "Stop dependent path after create-board",
+  "traceback": "Traceback (most recent call last):\n  File \"/opt/kan-capture/KAN_CAPTURE.py\", line 98, in <module>\n    step('create-board',create_board,'/^\\\\/boards\\\\/[^/]+$/.test(location.pathname)',lambda s:len(s['boards'] or [])==1)\n  File \"/opt/kan-capture/KAN_CAPTURE.py\", line 63, in step\n    if row['action']!='done' or (engine=='chrome' and row.get('capture_error')):raise RUN.ActionError('Stop dependent path after '+name)\n                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRUN.ActionError: Stop dependent path after create-board\n"
+}

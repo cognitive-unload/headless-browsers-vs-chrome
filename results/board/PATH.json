@@ -1,0 +1,39 @@
+{
+  "pin": "3a4dfcd6974b67a4636ee075d7d07149155898e2",
+  "driver": "agent-browser v0.41.2, frozen R9 adapter",
+  "engines": [
+    "Chrome 157",
+    "Obscura 0.2.6 normal",
+    "Moli 1.1.22",
+    "Lightpanda 1.0.3"
+  ],
+  "steps": [
+    "sign in and select dark theme",
+    "create Release planning board",
+    "add To do list",
+    "add Done list",
+    "add Check mobile layout card",
+    "add Record UI walkthrough card",
+    "add Review browser results card",
+    "drag Check mobile layout from To do to Done",
+    "open dragged card",
+    "edit title and description through autosave UI",
+    "close card, resize to 360x720 and reload board"
+  ],
+  "baseline": "one synthetic user and one empty workspace; zero boards/lists/cards",
+  "viewports": [
+    [
+      1280,
+      720,
+      1
+    ],
+    [
+      360,
+      720,
+      1
+    ]
+  ],
+  "oracle": "read-only PostgreSQL queries through fixture host supervisor; no task state injection",
+  "source_changes": "only build-setting SVG loader equivalent in next.config.js",
+  "cut_changed": false
+}

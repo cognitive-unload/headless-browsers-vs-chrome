@@ -1,0 +1,20 @@
+{
+  "page": {
+    "dark": true,
+    "text": "C\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nBoards\nImport\nNew\n\nNo boards\n\nGet started by creating a new board\n\nCreate new board",
+    "url": "http://127.0.0.1:3000/boards",
+    "viewport": [
+      360,
+      720,
+      1
+    ]
+  },
+  "capture": {
+    "file": "phone-at-stop.png",
+    "sha256": "3319bebcdb3a9fe4c5660be0240fd860ad163417e0c16d1799b1a9af4654420a",
+    "dimensions": [
+      360,
+      720
+    ]
+  }
+}

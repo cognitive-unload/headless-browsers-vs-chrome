@@ -1,0 +1,50 @@
+{
+  "architecture": "linux-x86_64",
+  "assets": [
+    {
+      "name": "agent-browser-linux-x64",
+      "version": "v0.41.2",
+      "url": "https://github.com/vercel-labs/agent-browser/releases/download/v0.41.2/agent-browser-linux-x64",
+      "sha256": "c4351f3802ffa5254d8c69f20a52e2fcf56925c6016fcf4203db25a07d811379",
+      "publisher_metadata": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.2",
+      "kind": "binary"
+    },
+    {
+      "name": "lightpanda-x86_64-linux",
+      "version": "1.0.3",
+      "url": "https://github.com/lightpanda-io/browser/releases/download/1.0.3/lightpanda-x86_64-linux",
+      "sha256": "53eb34da09159dcf8f04865dbfe3e63e9a652062684495aa7ced5ddd7c82e8b0",
+      "publisher_metadata": "https://github.com/lightpanda-io/browser/releases/tag/1.0.3",
+      "kind": "binary"
+    },
+    {
+      "name": "obscura-x86_64-linux.tar.gz",
+      "version": "v0.2.6",
+      "url": "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.6/obscura-x86_64-linux.tar.gz",
+      "sha256": "eed986e478c5ec5439f531f2d7fb6b0e36a356f1df7a6c44a8e8fd4f2486bd76",
+      "publisher_metadata": "https://github.com/h4ckf0r0day/obscura/releases/tag/v0.2.6",
+      "kind": "tar"
+    },
+    {
+      "name": "moli-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "v1.1.22",
+      "url": "https://github.com/lexmount/moli/releases/download/v1.1.22/moli-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "7e10f9a5b62371da56203b21ac0172bbe3c3626de189fc3742b91b2e2b8cdd39",
+      "publisher_metadata": "https://github.com/lexmount/moli/releases/tag/v1.1.22",
+      "kind": "tar"
+    },
+    {
+      "name": "chrome-linux64.zip",
+      "version": "157.0.8103.38",
+      "url": "https://storage.googleapis.com/chrome-for-testing-public/157.0.8103.38/linux64/chrome-linux64.zip?generation=1793667047341974",
+      "sha256": "8cdeb344e9b2cefe59f4aea8d1d93d5d93054c03cde217665c16fc1f62e72a66",
+      "publisher_metadata": "https://storage.googleapis.com/storage/v1/b/chrome-for-testing-public/o/157.0.8103.38%2Flinux64%2Fchrome-linux64.zip",
+      "publisher_md5_base64": "jJZFYX39aFTQqHUsR5TZLQ==",
+      "kind": "zip",
+      "publisher_crc32c_base64": "WxvaoQ==",
+      "approved_integrity_method": "HTTPS official metadata MD5 and CRC32C, then pin computed SHA256",
+      "owner_approval": "internal-approval-id-removed",
+      "sha256_origin": "Computed locally after Google HTTPS MD5 and CRC32C matches; not publisher SHA256"
+    }
+  ]
+}

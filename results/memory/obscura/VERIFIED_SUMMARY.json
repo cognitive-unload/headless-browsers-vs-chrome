@@ -1,0 +1,16 @@
+{
+  "iterations": 100,
+  "total_ms": 6255.172942,
+  "median_ms": 61.935494999999946,
+  "mean_ms": 62.397780350000005,
+  "peak_process_tree_pss_kib": 58640,
+  "memory_samples": 63,
+  "samples_with_missing_pids": 0,
+  "exit": 0,
+  "oom": false,
+  "stopped": true,
+  "services": "pass before and after",
+  "pngs": 4,
+  "all_extractions_equal_chrome_reference": true,
+  "network": "reviewed network none and namespace guard passed"
+}

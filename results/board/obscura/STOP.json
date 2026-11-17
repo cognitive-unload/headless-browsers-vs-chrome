@@ -1,0 +1,4 @@
+{
+  "error": "Stop dependent path after drag-card",
+  "traceback": "Traceback (most recent call last):\n  File \"/opt/kan-capture/KAN_CAPTURE.py\", line 103, in <module>\n    step('drag-card',drag,'document.querySelectorAll(\"[data-list-scroll-id]\")[1]?.textContent.includes(\"Check mobile layout\")',lambda s:any(c['title']=='Check mobile layout' and c['listId']==next(l['id'] for l in s['lists'] if l['name']=='Done') for c in s['cards']))\n  File \"/opt/kan-capture/KAN_CAPTURE.py\", line 63, in step\n    if row['action']!='done' or (engine=='chrome' and row.get('capture_error')):raise RUN.ActionError('Stop dependent path after '+name)\n                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRUN.ActionError: Stop dependent path after drag-card\n"
+}

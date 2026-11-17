@@ -1,0 +1,3 @@
+
+// Capture build: mirror upstream Turbopack SVG rule in webpack.
+config.webpack = (c) => { const imageRule=c.module.rules.find(r=>r.test?.test?.(".svg")); if(imageRule) imageRule.exclude=/\.svg$/i; c.module.rules.push({test:/\.svg$/i,use:["@svgr/webpack"]}); return c; };

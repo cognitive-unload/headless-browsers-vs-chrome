@@ -1,0 +1,61 @@
+MIT License
+
+Copyright (c) 2026 the cognitive-unload-headless-browsers authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Which files this MIT licence covers
+-------------------------------------------------------------------------------
+
+Ours, under the MIT licence above:
+
+- All scripts and data files we wrote: everything in harness/, harness/rig/,
+  harness/setup/, harness/build-inputs/PREPARE_FONT_INPUT.py, memory/rig/,
+  memory/rig-r5-obscura/ and engine-image/, except the two exceptions below.
+- README.md, SANITISATION.md, TESTED_HASHES.json, memory/UPSTREAM.md.
+- Everything in results/ (our test output and summaries).
+
+Exceptions:
+
+1. memory/rig/BENCHMARK.mjs follows the Campfire client puppeteer/cdp.js from
+   https://github.com/lightpanda-io/demo (commit
+   a87412aebbeec8b6422337fca178fbb7e3ffc883), Copyright 2023-2024 Lightpanda
+   (Selecy SAS), Apache License 2.0. BENCHMARK.mjs is distributed under the
+   Apache License 2.0; see LICENSES/Apache-2.0.txt. Changes are listed in
+   memory/UPSTREAM.md.
+
+2. memory/rig/TLS_COMPAT.py quotes a six-line code block from pywebsocket3
+   4.0.2 (Copyright 2020, Google Inc., BSD 3-Clause licence) so it can replace
+   that block at build time. The quoted block stays under that licence; see
+   LICENSES/pywebsocket3-BSD-3-Clause.txt. The rest of the file is MIT.
+
+Not ours, and not included:
+
+- Kan (https://github.com/kanbn/kan, AGPL-3.0). No Kan source is in this
+  repository. harness/build-inputs/SOURCE_SHA256.json lists Kan file paths and
+  their SHA256 values at the tested commit; it contains no Kan code.
+  results/board/captures/ are screenshots of Kan's interface with synthetic
+  test data, kept as test evidence.
+- The browser engines and driver (Chrome for Testing, Obscura, Moli,
+  Lightpanda, agent-browser). No binary or source is included; see README.md
+  for links and licences.
+- web-platform-tests, the Campfire test page, the Python packages in
+  memory/rig/DEPENDENCIES.lock.json and the Plus Jakarta Sans font. Only
+  names, URLs and hashes appear here.

@@ -1,0 +1,2947 @@
+{
+  "commit": "b62c4db0c515e8aa6f104f589c19bd2cb9b3424d",
+  "source_url": "https://github.com/web-platform-tests/wpt/commit/b62c4db0c515e8aa6f104f589c19bd2cb9b3424d",
+  "archive_sha256": "814a76896b0339dd8cad43319082e5dbf29430c80f6be02b80433dacd234c9f4",
+  "selection": "40 per area; equal prefix quotas; SHA256(seed + NUL + URL), HTML testharness/reftests only; no worker-only or generated .any.js coverage",
+  "candidate_counts": {
+    "css/css-grid/": 2530,
+    "css/css-flexbox/": 1381,
+    "css/css-fonts/": 561,
+    "html/semantics/embedded-content/the-img-element/": 147,
+    "html/canvas/element/": 1639,
+    "custom-elements/": 189,
+    "shadow-dom/": 340,
+    "fetch/api/": 48,
+    "webstorage/": 24
+  },
+  "tests": [
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/alignment/row-justify-items-014.html",
+      "source": "css/css-grid/grid-lanes/alignment/row-justify-items-014.html",
+      "sha256": "f0951dbca50de92f3496f4652e91779c4f791ff0f166038152c10a7b120932e6",
+      "kind": "reftest",
+      "references": [
+        [
+          "row-justify-items-014-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/abspos/orthogonal-positioned-grid-descendants-016.html",
+      "source": "css/css-grid/abspos/orthogonal-positioned-grid-descendants-016.html",
+      "sha256": "ff4bccc54b9069747ac9bc4b628387e647514965d57afbb39e592a2270b7065f",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Checks that absolutely positioned orthogonal elements inside grid items are properly placed and sized when they have specific 'left, 'top', 'right' and 'bottom' offsets."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-002.html",
+      "source": "css/css-grid/grid-lanes/tentative/item-placement/row-reverse-002.html",
+      "sha256": "3acf51a46d2a4dacdd69ee10d7d3ccb7ceca50988fd9cae27bf30340b6054d88",
+      "kind": "reftest",
+      "references": [
+        [
+          "row-reverse-002-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/subgrid/standalone-axis-size-011.html",
+      "source": "css/css-grid/subgrid/standalone-axis-size-011.html",
+      "sha256": "b0dbcb670878f09574e65cd4d50cc767f2363cebc3a61e3a86c55f4ec1163c6a",
+      "kind": "reftest",
+      "references": [
+        [
+          "../../reference/ref-filled-green-100px-square.xht",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004.html",
+      "source": "css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004.html",
+      "sha256": "f10b06caf345341124654ff8921822516481df0f9d22c1df4210ffef52d23898",
+      "kind": "reftest",
+      "references": [
+        [
+          "fit-tolerance-row-004-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-002.html",
+      "source": "css/css-grid/grid-lanes/tentative/item-placement/column-reverse-002.html",
+      "sha256": "dbee18c9bdcee2a5c393221f9a7e700393ce594e9e58cd77d13dd60947fd92eb",
+      "kind": "reftest",
+      "references": [
+        [
+          "column-reverse-002-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/line-names/column-line-names-014.html",
+      "source": "css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/line-names/column-line-names-014.html",
+      "sha256": "a02297dba0daadae95164dfba556bb45a7ab2935c02ccf8222e39e24d73e28da",
+      "kind": "reftest",
+      "references": [
+        [
+          "../../../../../reference/ref-filled-green-100px-square.xht",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-008.html",
+      "source": "css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-008.html",
+      "sha256": "b576273a09309cf07f9dd553094f4e80e288bc52aa23a02803b14a95814a0f9e",
+      "kind": "reftest",
+      "references": [
+        [
+          "column-dense-packing-008-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/alignment/grid-align-content-distribution-vertical-rl.html",
+      "source": "css/css-grid/alignment/grid-align-content-distribution-vertical-rl.html",
+      "sha256": "e8ab4c98a8f42d52cc00912c07f92e9220648c840780dc863936aadb5470bac8",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "This test checks that the align-content property is applied correctly when using content-distribution values for the vertical-rl writing mode."
+        ],
+        "flags": [
+          "ahem"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-items/grid-items-percentage-margins-011.html",
+      "source": "css/css-grid/grid-items/grid-items-percentage-margins-011.html",
+      "sha256": "eaf866485fd271a70e8bbceec789d84a231afb541b434850e34b6ec0d1913067",
+      "kind": "reftest",
+      "references": [
+        [
+          "../../reference/ref-filled-green-100px-square.xht",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Checks grid items percentage margins are resolved correctly in a 'auto' sized grid area after changing the item's width and forcing a new layout."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/alignment/grid-row-axis-alignment-positioned-items-005.html",
+      "source": "css/css-grid/alignment/grid-row-axis-alignment-positioned-items-005.html",
+      "sha256": "2c90a7ae11f33a07739492a625996be8d76abed4c3cc1ef4a877085b994c3fa3",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Absolute positioned grid items with 'center' value for justify-self are 'centered' within its alignment container."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/alignment/grid-content-distribution-with-collapsed-tracks-008.html",
+      "source": "css/css-grid/alignment/grid-content-distribution-with-collapsed-tracks-008.html",
+      "sha256": "15a59d14d357f32cceae126873ea34db2fe6a3c7cbf898312c25b1d95404746e",
+      "kind": "reftest",
+      "references": [
+        [
+          "../../reference/ref-filled-green-200px-square.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Content Distribution properties with 'space-evenly' value render correcly."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-items/grid-items-minimum-width-vertical-lr-001.html",
+      "source": "css/css-grid/grid-items/grid-items-minimum-width-vertical-lr-001.html",
+      "sha256": "81e1c1a76d36e8481da81d06c568def9ed17eb0de87e0c54558690f191516855",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Checks that grid items minimum width takes into account borders, padding and margins for grid containers with definite width in vertical-lr."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/items/column-fit-content-percentage.html",
+      "source": "css/css-grid/grid-lanes/items/column-fit-content-percentage.html",
+      "sha256": "a089c7796bf0f6f38ad66bbf3815dc39ebd19a78c4c1d417ff7e1d16c3dcc2e6",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Checks that an indefinite percentage in fit-content lets the grid-lanes container grow enough to contain the max-content contribution of its grid-lanes items."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-auto-fill-001.html",
+      "source": "css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-auto-fill-001.html",
+      "sha256": "197d8f84fe87e4f8a2a95184d499f55eac90c21a5e96c927ca0b167d50d43493",
+      "kind": "reftest",
+      "references": [
+        [
+          "row-subgrid-auto-fill-001-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/line-names/row-line-names-001.html",
+      "source": "css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/line-names/row-line-names-001.html",
+      "sha256": "7e4c47ea55906fdccd37892c058cad206f1787a4d5603edf1bce3cf83acb7bb9",
+      "kind": "reftest",
+      "references": [
+        [
+          "row-line-names-001-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/alignment/grid-content-alignment-second-pass-002.html",
+      "source": "css/css-grid/alignment/grid-content-alignment-second-pass-002.html",
+      "sha256": "439cd5fe6b7a4b567f5d39965e10cd8afdd59c60576df325340b104e500cb998",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "flags": [
+          "ahem dom"
+        ],
+        "assert": [
+          "This test checks that content alignment is properly applied when the size of the tracks changes in the second pass of the track sizing algorithm."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/parsing/grid-template-shorthand.html",
+      "source": "css/css-grid/parsing/grid-template-shorthand.html",
+      "sha256": "7fe50ba0699c8f8ed413a677d0beed21d7fb86c6a188caa1a9214468ef4bcca2",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "grid-template supports the full grammar 'none | [ <grid-template-rows> / <grid-template-columns> ] | [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?'."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/placement/grid-placement-invalid-double-span-001.html",
+      "source": "css/css-grid/placement/grid-placement-invalid-double-span-001.html",
+      "sha256": "9529126ff922a5bc9641b7a7e8f6635c71c9d1a358626a37889e8fb24cf1a016",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "A placement made of a span for a named line and an 'auto' or span end is handled by the grid placement conflict handling rules and the item is auto-placed; invalid values such as 'span / span 3' and 'span / auto' are ignored."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-001.html",
+      "source": "css/css-grid/alignment/self-baseline/grid-self-baseline-vertical-lr-001.html",
+      "sha256": "125c77be21e7e1730b72f2cea613b48b33a65f305e438c2db1eed5de9422cc4e",
+      "kind": "reftest",
+      "references": [
+        [
+          "grid-self-baseline-vertical-lr-001-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Test that all items share 'first-row' Baseline Context and no item shares any column-like Baseline Context. Items participate in both, column and row baseline, but since they only share a row-like Baseline Context only 'aling-self' (column baseline-axis) should apply. The Baseline Alignment may increase size contribution of some items."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flexbox_flex-N-1-0-unitless.html",
+      "source": "css/css-flexbox/flexbox_flex-N-1-0-unitless.html",
+      "sha256": "ec9d2ac53d19f2eaa32a2fdffa5ac9c48f244edc5c36ce655df01210e9ae2853",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox_flex-N-1-0-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flexbox_flex-0-1.html",
+      "source": "css/css-flexbox/flexbox_flex-0-1.html",
+      "sha256": "f60d338e762f9db6baa4c399fc43f938b7d29cb819b40beec7a0c43e37345b0d",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox_flex-0-1-0-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/css-flexbox-row-reverse-wrap-reverse.html",
+      "source": "css/css-flexbox/css-flexbox-row-reverse-wrap-reverse.html",
+      "sha256": "858da8a1e62fc4f9d2a9b821a800fecb4cd64a6784792236789692254af7dde1",
+      "kind": "reftest",
+      "references": [
+        [
+          "css-flexbox-row-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Test checks that when writing mode is vertical and flex-flow: row-reverse wrap-reverse, the flex container is vertical."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flex-minimum-height-flex-items-011.xht",
+      "source": "css/css-flexbox/flex-minimum-height-flex-items-011.xht",
+      "sha256": "611d2ec43d490c906a7493317a93e777c4d3d6d642649128656c398a5f1348f2",
+      "kind": "reftest",
+      "references": [
+        [
+          "../reference/ref-filled-green-100px-square.xht",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Checks that minimum height for flex items is the min-content size."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/abspos/flexbox-abspos-child-002.html",
+      "source": "css/css-flexbox/abspos/flexbox-abspos-child-002.html",
+      "sha256": "d5a85547e9797ffdd3086efa6c397f9218026012468c1afac0f1c46dac2c160c",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox-abspos-child-002-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/abspos/flex-abspos-staticpos-margin-003.html",
+      "source": "css/css-flexbox/abspos/flex-abspos-staticpos-margin-003.html",
+      "sha256": "1af84162cc108d192eec883ec99b270792b631a2b80d4e8dd77eb88f0d22ba51",
+      "kind": "reftest",
+      "references": [
+        [
+          "flex-abspos-staticpos-margin-003-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/align-content-horiz-001b.html",
+      "source": "css/css-flexbox/align-content-horiz-001b.html",
+      "sha256": "6d794d262520bc49a50e2f857b9000d1ed64209cef50f3a94a9471607a930738",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/justify-content-007.html",
+      "source": "css/css-flexbox/justify-content-007.html",
+      "sha256": "a552d6ec042466a49c54c94d372b8728cf44471cd925e1e786934347c3350d85",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Wrapped item obeys justify-content:center when the item wraps because the container has max-height."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/height-percentage-with-dynamic-container-size.html",
+      "source": "css/css-flexbox/height-percentage-with-dynamic-container-size.html",
+      "sha256": "6c7dbb3cb4a7f752abac6bf73ed6056a8dd6e124d8b5e1b877a079f29b0432b7",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Checks that if a flex container has a definite height percentage, but then the height of the container is dynamically changed to be intrinsic, the resolved value of the percentage is correctly updated."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/aspect-ratio-intrinsic-size-006.html",
+      "source": "css/css-flexbox/aspect-ratio-intrinsic-size-006.html",
+      "sha256": "4187b89607c2e504cb7464892db845c76593681cecb2ba28d4cb3c0ceb1e8c75",
+      "kind": "reftest",
+      "references": [
+        [
+          "../reference/ref-filled-green-100px-square-only.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "This checks that replaced element transfers its size when resolving against a flex-item with stretch alignment."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flexbox-writing-mode-013.html",
+      "source": "css/css-flexbox/flexbox-writing-mode-013.html",
+      "sha256": "1e35af99a859d08416a9a841f0afb523cb8413faa9493df6d0d961e01a264226",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox-writing-mode-013-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flexbox_align-items-flexend.html",
+      "source": "css/css-flexbox/flexbox_align-items-flexend.html",
+      "sha256": "673bf9c3859f450d70abdb3d7b8f3a376314e360df115da0c4abbfae26a1d631",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox_align-items-flexend-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/table-with-float-paint.html",
+      "source": "css/css-flexbox/table-with-float-paint.html",
+      "sha256": "781ac944f5552c3e600312dec223ab902d29d8cc4495f87b912b9edb7f97fc44",
+      "kind": "reftest",
+      "references": [
+        [
+          "../reference/ref-filled-green-100px-square-only.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/fieldset-baseline-alignment.html",
+      "source": "css/css-flexbox/fieldset-baseline-alignment.html",
+      "sha256": "c9eff46d97249349cd090ecf26f215fec96c0122026053fea0a8caf698d55fd0",
+      "kind": "reftest",
+      "references": [
+        [
+          "fieldset-baseline-alignment-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/getcomputedstyle/flexbox_computedstyle_min-auto-size.html",
+      "source": "css/css-flexbox/getcomputedstyle/flexbox_computedstyle_min-auto-size.html",
+      "sha256": "df815389db3904b4c9d22548b2f575e6747fbb282eac0c550773f6ad011fe415",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/abspos/flex-abspos-staticpos-align-self-rtl-002.html",
+      "source": "css/css-flexbox/abspos/flex-abspos-staticpos-align-self-rtl-002.html",
+      "sha256": "65dec4bb9d6ce20c21e61a52ebe525b43491aa4252cab2be5c3cd4657656cf5b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flex-align-content-end.html",
+      "source": "css/css-flexbox/flex-align-content-end.html",
+      "sha256": "c5f491c024b3e023ed5ebafcebd4f395ccb4998fe9bcf54c28a7ba1723f19958",
+      "kind": "reftest",
+      "references": [
+        [
+          "reference/flex-align-content-end-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Statement describing what the test case is asserting"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flexbox_item-vertical-align.html",
+      "source": "css/css-flexbox/flexbox_item-vertical-align.html",
+      "sha256": "ada2460c447a441991763191cbe4013e58c0909997fa7340f0914ca7d09957be",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox_item-vertical-align-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/intrinsic-size/row-009.html",
+      "source": "css/css-flexbox/intrinsic-size/row-009.html",
+      "sha256": "88f0f7cdcc2c7846f7d45634f98ef0f436547f834042ad0f80d951c3d2d1a864",
+      "kind": "reftest",
+      "references": [
+        [
+          "../../reference/ref-filled-green-100px-square.xht",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "negative margins on inflexible items subtract their resolved length from the container's max-content size instead of scaling the items' contributions"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "layout",
+      "url": "/css/css-flexbox/flexbox-whitespace-handling-001a.xhtml",
+      "source": "css/css-flexbox/flexbox-whitespace-handling-001a.xhtml",
+      "sha256": "d039b94bc7aaf2cd6394e1ff3acefd92c6f005a0f79b2380f7c05349099ee934",
+      "kind": "reftest",
+      "references": [
+        [
+          "flexbox-whitespace-handling-001-ref.xhtml",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/animations/font-size-interpolation-002.html",
+      "source": "css/css-fonts/animations/font-size-interpolation-002.html",
+      "sha256": "ad2b6b26eb38375d8e373741b06cd2f4ec7bfb026ee01b666b314acc4dcb3ba0",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "font-size supports animation as length"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-palette-31.html",
+      "source": "css/css-fonts/font-palette-31.html",
+      "sha256": "597571bad8f4837969ee571baeae72d10c0ef7d17d0a42f6c5994a1e2a618e42",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-palette-31-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/parsing/font-variant-position-computed.html",
+      "source": "css/css-fonts/parsing/font-variant-position-computed.html",
+      "sha256": "049a109b96da6f3153f6c2535c59ba9614ac6a1a378b47ec4d4453540f31128d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "font-variant-position computed value is as specified."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/system-ui-ur-vs-ar.html",
+      "source": "css/css-fonts/system-ui-ur-vs-ar.html",
+      "sha256": "eff99e134791ca736a68b593fe981e107f998d74a00e2cf8f330845e7a874421",
+      "kind": "reftest",
+      "references": [
+        [
+          "system-ui-ar.html",
+          "mismatch"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-variant-ligatures-03.html",
+      "source": "css/css-fonts/font-variant-ligatures-03.html",
+      "sha256": "013d52230317d9d6f82bc86c61f4fd95947f4262d2403434d3e869c1165ac12c",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-variant-ligatures-03-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Enables display of common ligatures (OpenType features: liga, clig)"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/parsing/font-variation-settings-computed.html",
+      "source": "css/css-fonts/parsing/font-variation-settings-computed.html",
+      "sha256": "290b14f69fb73e1af9fca19f469b7132a9e41f388cb5b7936f8206f93d57f35d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "font-variation-settings computed value is as specified."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-feature-settings-tibetan.html",
+      "source": "css/css-fonts/font-feature-settings-tibetan.html",
+      "sha256": "8696d974b72b72552fe6248c8f23c5759a38e03e8e425b9b2448e08734ba5338",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-feature-settings-tibetan-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "Test that Tibetan shaping works with ligatures disabled."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/parsing/font-language-override-invalid.html",
+      "source": "css/css-fonts/parsing/font-language-override-invalid.html",
+      "sha256": "7e85e76a09a458a018b9cb38d2a322172c04702ac553ab168b825bf465510191",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "font-language-override supports only the grammar 'normal | <string>'.",
+          "font-language-override string has three letters."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/generic-family-keywords-003.html",
+      "source": "css/css-fonts/generic-family-keywords-003.html",
+      "sha256": "5d0558ff98b968b387cea678a25e6ad8404b653ebf6f0773d8c0eca4d5f8aeec",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/parsing/font-language-override-valid.html",
+      "source": "css/css-fonts/parsing/font-language-override-valid.html",
+      "sha256": "dc79797db792940b66b375e60ad60602fe1d8efde76afbca13053ad56c55fbc5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "font-language-override supports the full grammar 'normal | <string>'."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-variant-emoji-1.html",
+      "source": "css/css-fonts/font-variant-emoji-1.html",
+      "sha256": "aefe9b0dbb1ff7e0882973376d3dc35f2d8928eb8310b626805e08136777c3e6",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-variant-emoji-1-notref.html",
+          "mismatch"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "U+FE0E and U+FE0F variation selectors should result in different presentation of U+263A WHITE SMILING FACE"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-feature-values-serialization-order.html",
+      "source": "css/css-fonts/font-feature-values-serialization-order.html",
+      "sha256": "b1e5b79aabbe898704960fcea70187b6017e9eca1ff40d46df3555adf8e3fd56",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-display/font-display-preload.html",
+      "source": "css/css-fonts/font-display/font-display-preload.html",
+      "sha256": "4fc984bb6a040dcc6b5278d3fd48653f55a6a9cb1afb78ef5e9d0ed736e15d29",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-display-preload-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-family-name-005.xht",
+      "source": "css/css-fonts/font-family-name-005.xht",
+      "sha256": "4f7defadc0b76aefe4940b787d17d85d30c2637249d37ac16b82b363058e4a0f",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-family-name-ref.xht",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "The 'font-family' property set to and installed font renders the appropriate font. Family name with single quotes."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-size-adjust-interpolation-math-functions.html",
+      "source": "css/css-fonts/font-size-adjust-interpolation-math-functions.html",
+      "sha256": "25add6d8310d96af19903738ef5c92422a31cac15fcf48dc81df2dddbcda0bee",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/variations/font-style-parsing.html",
+      "source": "css/css-fonts/variations/font-style-parsing.html",
+      "sha256": "23f307dcacd83d383ae2f1a8c84379848e87a9fe99f43a32484bce4527e53fb1",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-variation-settings-serialization-001.html",
+      "source": "css/css-fonts/font-variation-settings-serialization-001.html",
+      "sha256": "3fa8ccc836a356f32905ee5e9a5cd575949e5b9d9c9787e388c2c5833b5cb2af",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "description": [
+          "It was decided in issue 1959 that font-variation-settings is a map, therefore duplicates should be removed"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-stretch-15.html",
+      "source": "css/css-fonts/font-stretch-15.html",
+      "sha256": "d74c2404cd7b62550e1e8a8f51f8871030fff0ff03f1616ae9f34412cc118558",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-stretch-pass-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "When a face does not exist for a given width, normal or condensed values map to a narrower face, otherwise a wider face."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/font-family-name-014.xht",
+      "source": "css/css-fonts/font-family-name-014.xht",
+      "sha256": "8087710c1ce09267abe42bdc697eb7a8f187c3a7ca761e6339f12afa63439636",
+      "kind": "reftest",
+      "references": [
+        [
+          "font-family-name-ref.xht",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "The 'font-family' property set to and installed font renders the appropriate font. Postscript name should not match, only family names."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/css/css-fonts/matching/stretch-distance-over-weight-distance.html",
+      "source": "css/css-fonts/matching/stretch-distance-over-weight-distance.html",
+      "sha256": "3ac862b6c7a518991e2d15839e8ee89160119630bfa92126115e02109c457d24",
+      "kind": "reftest",
+      "references": [
+        [
+          "stretch-distance-over-weight-distance-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/svg-img-with-external-stylesheet.html",
+      "source": "html/semantics/embedded-content/the-img-element/svg-img-with-external-stylesheet.html",
+      "sha256": "a812178a28618bf6736c8e48a4f0ee77fc2dbe9a3155b1c40089a24b9b5929ac",
+      "kind": "reftest",
+      "references": [
+        [
+          "svg-img-with-external-stylesheet-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/sizes/sizes-auto.html",
+      "source": "html/semantics/embedded-content/the-img-element/sizes/sizes-auto.html",
+      "sha256": "3c9fcbcc9b2571a18d4642b7995da96484a5b7e10bec13105944b375014f847f",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/update-media.html",
+      "source": "html/semantics/embedded-content/the-img-element/update-media.html",
+      "sha256": "7081ffb04cad437efac2e6179058da98e6d455b8dc05996c3d3711f24a78661d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy-multicol.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy-multicol.html",
+      "sha256": "3fba7fb99b96b1353ba4af12ab91fd4c2a6a9291d3a96787311deaac387a49c1",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy-srcset.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy-srcset.html",
+      "sha256": "1868fbf3daf1372f83a418c6dd500d263296d04971398bd84a53e4fda1a4e581",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/invalid-src.html",
+      "source": "html/semantics/embedded-content/the-img-element/invalid-src.html",
+      "sha256": "d2d49a1a1c9ce55c2b8cbb36543d40378639188c16c386bd515a78f0a28b3635",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/update-the-image-data/fail-to-resolve.html",
+      "source": "html/semantics/embedded-content/the-img-element/update-the-image-data/fail-to-resolve.html",
+      "sha256": "52dd2794a184132534a7a93cd9c014b5a15f7580c6e19028e725120b38aa7f25",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy-below-viewport-dynamic.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy-below-viewport-dynamic.html",
+      "sha256": "caf19e006cb338d11e38d5ca6d2f98365c2738ba7db3bcdc483db94b6caff616",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/sizes/sizes-dynamic-002.html",
+      "source": "html/semantics/embedded-content/the-img-element/sizes/sizes-dynamic-002.html",
+      "sha256": "be4934e79d88e28947e9450698e4a5cf2a5e7b985e45d70a068c8b6f7e65ab8d",
+      "kind": "reftest",
+      "references": [
+        [
+          "sizes-dynamic-001-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy-multiple-times.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy-multiple-times.html",
+      "sha256": "c6d08bfb423cabc09e0824e7cf0d228d40a3f86887b331177e7861a731472e8f",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy-base-url-2.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy-base-url-2.html",
+      "sha256": "d3e8613050f85eff8d2cba27059936c059d98e89529ff6337d6b783c4a6d2fe5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/svg-img-zero-height-with-viewbox.html",
+      "source": "html/semantics/embedded-content/the-img-element/svg-img-zero-height-with-viewbox.html",
+      "sha256": "be9fa8b733c67d145b22aea37e732f55702ec519824458e6773cfd77edcfd48e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/sizes/sizes-auto-resize-observer-removes-auto.html",
+      "source": "html/semantics/embedded-content/the-img-element/sizes/sizes-auto-resize-observer-removes-auto.html",
+      "sha256": "15494ad340e764741084e02378bb191b8401f9c9fe1dcd0c5aa843e5c9545080",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy.html",
+      "sha256": "935f5982b42922626c40d51d247e04d68f8aaab86c248fa3165cd1f0cfeb4b1e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/sizes/sizes-2d.tentative.html",
+      "source": "html/semantics/embedded-content/the-img-element/sizes/sizes-2d.tentative.html",
+      "sha256": "8f922c16e7d028670b35d26c7b3fb72344a8372610b820c99f0d98a4d8c4bc2e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/image-loading-lazy-available.html",
+      "source": "html/semantics/embedded-content/the-img-element/image-loading-lazy-available.html",
+      "sha256": "29e4b5cc04228786a2501396ee25f9d0ff145528e2cc373ac9ff1651bf23d7b9",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/sizes/sizes-auto-dynamic-attributes.html",
+      "source": "html/semantics/embedded-content/the-img-element/sizes/sizes-auto-dynamic-attributes.html",
+      "sha256": "17ee87d144bd23b4d0a26193cdc8122f41dc4b91cc58e5a3c90a54d6d326673b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/null-image-source.html",
+      "source": "html/semantics/embedded-content/the-img-element/null-image-source.html",
+      "sha256": "073ac842fae919059edd7ab32e2a56a89d795a36bd91f6283378b46a8e4b2b45",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/update-the-image-data/current-request-microtask.html",
+      "source": "html/semantics/embedded-content/the-img-element/update-the-image-data/current-request-microtask.html",
+      "sha256": "ef3c5a949150f5f61e55d847cffa5b06755ba2c1c19cc4f8fae710721f015d06",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "fonts-images",
+      "url": "/html/semantics/embedded-content/the-img-element/decode/image-decode.html",
+      "source": "html/semantics/embedded-content/the-img-element/decode/image-decode.html",
+      "sha256": "104a4187ec29e0ddda96ca7bd9d1cae08d1050b9c024f2998c41ffefdb8f6ac4",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/drawing-rectangles-to-the-canvas/2d.clearRect.clip.html",
+      "source": "html/canvas/element/drawing-rectangles-to-the-canvas/2d.clearRect.clip.html",
+      "sha256": "c14c309c61e2891337a531ad98dda1c326f54e91e51655098731a518f2680ec7",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/fill-and-stroke-styles/2d.pattern.image.nonexistent.html",
+      "source": "html/canvas/element/fill-and-stroke-styles/2d.pattern.image.nonexistent.html",
+      "sha256": "78dc58b663c877098f8101662ed21d9af71f6fb8eaf37411a47ceb7e2bcc4511",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/layers/2d.layer.clearRect.partial.html",
+      "source": "html/canvas/element/layers/2d.layer.clearRect.partial.html",
+      "sha256": "1dab49f2f99c0d14106e7cfb8b073575784fd480fa41b06e1f703bff595a0547",
+      "kind": "reftest",
+      "references": [
+        [
+          "2d.layer.clearRect.partial-expected.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/privacy/pseudos/before-background-image-iframe-modified-ignored.tentative.https.sub.html",
+      "source": "html/canvas/element/manual/draw-element-image/privacy/pseudos/before-background-image-iframe-modified-ignored.tentative.https.sub.html",
+      "sha256": "40e5ac90ac3b9d8aa1143a6900b592129e6cd865dbebaa7c13e9b7950d88cc04",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/path-objects/2d.path.fill.winding.subtract.3.html",
+      "source": "html/canvas/element/path-objects/2d.path.fill.winding.subtract.3.html",
+      "sha256": "d3cc269485bf3cb5955b805d1e812f691b53d2eb5f496bb68140977c9fec406b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.parse.invalid.css-color-4-rgba-1.html",
+      "source": "html/canvas/element/fill-and-stroke-styles/2d.fillStyle.parse.invalid.css-color-4-rgba-1.html",
+      "sha256": "b58d100a212133d49976a054d8e5dbd24187578cc29724b398c43893a217ad86",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/text/2d.text.shape.glyph-clusters-split.tentative.html",
+      "source": "html/canvas/element/text/2d.text.shape.glyph-clusters-split.tentative.html",
+      "sha256": "c7ff19bd4a75634a8439c70b5c3cd4182e2ac13c38a3c2ea077edce153ac3a5f",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/text/2d.text.drawing.style.fontStretch.settings.html",
+      "source": "html/canvas/element/text/2d.text.drawing.style.fontStretch.settings.html",
+      "sha256": "5f3d094f8de53320d8c468822b7da60dfea8562248297726cac9c4a1fdfea031",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/pixel-manipulation/2d.imageData.put.basic.html",
+      "source": "html/canvas/element/pixel-manipulation/2d.imageData.put.basic.html",
+      "sha256": "0d13add3b0fb58103d249d1191b5668a215d87f2dfc9d1e67e1b941af3c0f0a5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/compositing/2d.composite.uncovered.nocontext.destination-in.html",
+      "source": "html/canvas/element/compositing/2d.composite.uncovered.nocontext.destination-in.html",
+      "sha256": "f59154f6d72e0fd71b95aa44ce81dff102b4d34e58aecbb985e1ea7f6d8fd16b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/text/canvas.2d.lang.empty.canvas.html",
+      "source": "html/canvas/element/manual/text/canvas.2d.lang.empty.canvas.html",
+      "sha256": "d1e168c451c276362d3bfb2d3702d6cb2bcd065a5c7e60db83ffdb83ac90a506",
+      "kind": "reftest",
+      "references": [
+        [
+          "canvas.2d.lang.empty-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "assert": [
+          "When the lang attribute is the empty string, use the unknown language."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/privacy/svg/svg-use-outside-subtree-images-ignored.tentative.https.sub.html",
+      "source": "html/canvas/element/manual/draw-element-image/privacy/svg/svg-use-outside-subtree-images-ignored.tentative.https.sub.html",
+      "sha256": "dedc08549d62a184e14aac805675a11d15ddc812271b158b7ae42b0041503e65",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/drawing-rectangles-to-the-canvas/2d.clearRect.zero.html",
+      "source": "html/canvas/element/drawing-rectangles-to-the-canvas/2d.clearRect.zero.html",
+      "sha256": "dcae0bbfa9699bde03ffc8722ca47dd9672729ec5be261af44e5a1ed12f521a2",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/path-objects/2d.path.isPointInPath.transform.2.html",
+      "source": "html/canvas/element/path-objects/2d.path.isPointInPath.transform.2.html",
+      "sha256": "7994cb35d466d7b369e7b85ad7831688447097e36d18c8417a6f51342cd5e840",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/content-drawable-no-hit-test.tentative.html",
+      "source": "html/canvas/element/manual/draw-element-image/content-drawable-no-hit-test.tentative.html",
+      "sha256": "7443c0cdbe91345c181529ab9bde1c6260ada280d2c3f0b7290a1949c4b9af26",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": true,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/compositing/2d.composite.grid.filter.no_shadow.fillRect.html",
+      "source": "html/canvas/element/compositing/2d.composite.grid.filter.no_shadow.fillRect.html",
+      "sha256": "299f3f69055ac36cf02bd23440286f73b5b7166fb0d97d3540f40b0cafb78bc9",
+      "kind": "reftest",
+      "references": [
+        [
+          "2d.composite.grid.filter.no_shadow.fillRect-expected.html",
+          "match"
+        ]
+      ],
+      "metadata": {
+        "fuzzy": [
+          "maxDifference=0-4; totalPixels=0-33000"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/layers/2d.layer.cross-layer-paths.html",
+      "source": "html/canvas/element/layers/2d.layer.cross-layer-paths.html",
+      "sha256": "ddbe859c7508c88c878f7784c80be8a3d73733b5f8f9e579de0ba186083f2b58",
+      "kind": "reftest",
+      "references": [
+        [
+          "2d.layer.cross-layer-paths-expected.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/wide-gamut-canvas/2d.color.space.toBlob.toDataURL.png.linear.float.html",
+      "source": "html/canvas/element/wide-gamut-canvas/2d.color.space.toBlob.toDataURL.png.linear.float.html",
+      "sha256": "7f97cf9e99e7c25320ca2e15983bdd01d9d3c11a524fe273366e3e723a975e28",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/fill-and-stroke-styles/2d.pattern.paint.repeat.outside.html",
+      "source": "html/canvas/element/fill-and-stroke-styles/2d.pattern.paint.repeat.outside.html",
+      "sha256": "595ab7b5ca3c49ad23ecc74449657f7050da029021b075600b7592aa13f62ff8",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/path-objects/2d.path.arc.scale.1.html",
+      "source": "html/canvas/element/path-objects/2d.path.arc.scale.1.html",
+      "sha256": "b61745ed477594dcda54f147eb17cf66f81fdf4dc43cd19a7165693c9ee19ec7",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/compositing/2d.composite.canvas.source-out.html",
+      "source": "html/canvas/element/compositing/2d.composite.canvas.source-out.html",
+      "sha256": "97f8bc32d5644e6f45f212e26643361e47f3bd2220510975acd88723d828bb43",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/drawing-images-to-the-canvas/image-orientation/drawImage-from-bitmap.tentative.html",
+      "source": "html/canvas/element/manual/drawing-images-to-the-canvas/image-orientation/drawImage-from-bitmap.tentative.html",
+      "sha256": "e5ed10f99a5cb263c9e056dd1ca277aad95f5c1559f3ad49dba671f8cdcc56a9",
+      "kind": "reftest",
+      "references": [
+        [
+          "drawImage-from-bitmap-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.parse.hex6.html",
+      "source": "html/canvas/element/fill-and-stroke-styles/2d.fillStyle.parse.hex6.html",
+      "sha256": "64b55084b55a350be97fdaa1b74c3e86616ad319b543f9126af1744d10c11d29",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/path-objects/2d.path.arcTo.shape.end.html",
+      "source": "html/canvas/element/path-objects/2d.path.arcTo.shape.end.html",
+      "sha256": "2ec286f33fa705147cfd48ebf70cbdc7ada1d64b7b1daf66231d31532c4dee58",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/privacy/iframe-sandbox-ignored.tentative.https.sub.html",
+      "source": "html/canvas/element/manual/draw-element-image/privacy/iframe-sandbox-ignored.tentative.https.sub.html",
+      "sha256": "642a3cfc8544d8da6c5cbac6d37edd5611642100313291081dd022c786eaf0e7",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/animated-clip-path.tentative.html",
+      "source": "html/canvas/element/manual/draw-element-image/animated-clip-path.tentative.html",
+      "sha256": "e79a71389e6e7f55d6e43ceb45b9f3299b7748445d3a58f041bc7433fae2cc3b",
+      "kind": "reftest",
+      "references": [
+        [
+          "animated-clip-path-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.3.html",
+      "source": "html/canvas/element/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.3.html",
+      "sha256": "49b432bb2c6c914d72f3cb3b28106b4d9ed12abf895533fbb1ca584e011b7450",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/text/2d.text.align.valid.html",
+      "source": "html/canvas/element/text/2d.text.align.valid.html",
+      "sha256": "5609337fe2af623536b5adbc57f28107ddcd2927f92e999d36e4a4415da0cddf",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/compositing/2d.composite.transparent.copy.html",
+      "source": "html/canvas/element/compositing/2d.composite.transparent.copy.html",
+      "sha256": "9ef0b5936d146ca3fe7672d8b1034b48da0d5606dc30bcd580b09cbb3b756964",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/text/2d.text.shape.glyph-clusters-position.tentative.html",
+      "source": "html/canvas/element/text/2d.text.shape.glyph-clusters-position.tentative.html",
+      "sha256": "59d2bf082322b7ef3cfa484475fe59cfede864c75947981052cbf22d835823bd",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/layers/2d.layer.resize-canvas-in-filter.html",
+      "source": "html/canvas/element/layers/2d.layer.resize-canvas-in-filter.html",
+      "sha256": "8c0bb50e77dff746694b684bdeaeb90a51c852b73b568d8d529a937d8bd92168",
+      "kind": "reftest",
+      "references": [
+        [
+          "2d.layer.resize-canvas-in-filter-expected.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/the-canvas-state/2d.state.saverestore.textBaseline.html",
+      "source": "html/canvas/element/the-canvas-state/2d.state.saverestore.textBaseline.html",
+      "sha256": "530bb7c59fc963542bdb8059cba0413abc7b536af1c65a66886a3ffe3f234081",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/drawing-text-to-the-canvas/canvas.2d.disconnected-font-size-math.html",
+      "source": "html/canvas/element/manual/drawing-text-to-the-canvas/canvas.2d.disconnected-font-size-math.html",
+      "sha256": "a221cc6c1681bca274e68ae4cd16972aff18ecf887be5fdbd3c62e50cb067635",
+      "kind": "reftest",
+      "references": [
+        [
+          "canvas.2d.disconnected-font-size-math-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/wide-gamut-canvas/canvas-display-p3-drawImage-ImageBitmap-canvas.html",
+      "source": "html/canvas/element/manual/wide-gamut-canvas/canvas-display-p3-drawImage-ImageBitmap-canvas.html",
+      "sha256": "e651ea34a5efa60b53f6dcb368d738957179771c331ab19c5045e16948e93ef2",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/compositing/2d.composite.transparent.source-out.html",
+      "source": "html/canvas/element/compositing/2d.composite.transparent.source-out.html",
+      "sha256": "9c2e03a822c511b4810686f7a5b13ed24cae8b19ec79b8c60b907f45aaec87c0",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.parse.rgb-clamp-5.html",
+      "source": "html/canvas/element/fill-and-stroke-styles/2d.fillStyle.parse.rgb-clamp-5.html",
+      "sha256": "0bd8b2aa836597a43f81247ce3e36339b5ea098ee5e6bab864642cd70174a63a",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/path-objects/2d.path.roundrect.end.3.html",
+      "source": "html/canvas/element/path-objects/2d.path.roundrect.end.3.html",
+      "sha256": "7c2bccc772d8ecc82160fb8c940a074d51c41a24ce83ddfdc1e35d17db316a37",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/privacy/pseudos/details-content-visited-link-ignored.tentative.html",
+      "source": "html/canvas/element/manual/draw-element-image/privacy/pseudos/details-content-visited-link-ignored.tentative.html",
+      "sha256": "d993800663c1df41710c9484c3ea59a37a956b791faf9923f398672f7e9a746c",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/manual/draw-element-image/privacy/background-image-on-html-in-iframe-moved-ignored.tentative.https.sub.html",
+      "source": "html/canvas/element/manual/draw-element-image/privacy/background-image-on-html-in-iframe-moved-ignored.tentative.https.sub.html",
+      "sha256": "bf428631648f4707dff2dcac2c98c9c9d73fed04467260613eed9d5f9b1339ed",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "canvas",
+      "url": "/html/canvas/element/path-objects/2d.path.arc.twopie.3.html",
+      "source": "html/canvas/element/path-objects/2d.path.arc.twopie.3.html",
+      "sha256": "13711af019fc271c6ead19c0fe50b77020c4da5873ad262a2b740541976bf9b2",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/customized-builtins/HTMLSourceElement.html",
+      "source": "custom-elements/reactions/customized-builtins/HTMLSourceElement.html",
+      "sha256": "103828a2f4982fc3d43bd175391c829010e05f82bf1abe058c780c79db26ef1d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "src, type, srcset, sizes, media of\n  HTMLSourceElement interface must have CEReactions"
+        ],
+        "help": [
+          "https://html.spec.whatwg.org/#the-source-element"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/connected-callbacks-html-fragment-parsing.html",
+      "source": "custom-elements/connected-callbacks-html-fragment-parsing.html",
+      "sha256": "14915becb82407d98cf15c4b4a7884726f83e8043f30ecd6933a43df6c744ad8",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "The HTML fragment parsing algorithm must enqueue a custom element upgrade reaction instead of synchronously invoking its constructor"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/ElementContentEditable.html",
+      "source": "custom-elements/reactions/ElementContentEditable.html",
+      "sha256": "78afcc2a2920d877baf6eb78af0b51d1c97250dfacd8301b60bae41558873f6a",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "contentEditable of ElementContentEditable interface must have CEReactions"
+        ],
+        "help": [
+          "https://html.spec.whatwg.org/#elementcontenteditable"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/state/state-css-selector.html",
+      "source": "custom-elements/state/state-css-selector.html",
+      "sha256": "3affd501d7579bc4b58aa7a4f2c4b7a1a76d16b2e8ee7e4b5b8c95c37e38e4b5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/AriaMixin-string-attributes.tentative.html",
+      "source": "custom-elements/reactions/AriaMixin-string-attributes.tentative.html",
+      "sha256": "a3781a4765fa3a0e2d4fe87826ddc2aa7c00bb85435a638253074633f66353dc",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "String attributes of AriaAttributes interface must have CEReactions"
+        ],
+        "help": [
+          "https://dom.spec.whatwg.org/#element",
+          "https://w3c.github.io/DOM-Parsing/"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/customized-builtins/HTMLDetailsElement.html",
+      "source": "custom-elements/reactions/customized-builtins/HTMLDetailsElement.html",
+      "sha256": "cddb01f4fa16ebbf2a2976bc6ff917005125ae23e009b20a2f8329a61cadd342",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "open of HTMLDetailsElement interface must have CEReactions"
+        ],
+        "help": [
+          "https://html.spec.whatwg.org/#the-details-element"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/HTMLOutputElement.html",
+      "source": "custom-elements/reactions/HTMLOutputElement.html",
+      "sha256": "ceaf478d27233abc2278fc63f2f4eb33d5386bfaa66123bbc48e67e714852d8e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "value and defaultValue of HTMLOutputElement interface must have CEReactions"
+        ],
+        "help": [
+          "https://dom.spec.whatwg.org/#node"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/enqueue-custom-element-callback-reactions-inside-another-callback.html",
+      "source": "custom-elements/enqueue-custom-element-callback-reactions-inside-another-callback.html",
+      "sha256": "2352c249ebe1a0d2a3ba32ce1860a3583d81d24927ffa7714f959f17cf5f9481",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "To enqueue a custom element callback reaction, the callback must be checked of being null and whether the attribute name is observed or not"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/registries/ShadowRoot-init-customElementRegistry.html",
+      "source": "custom-elements/registries/ShadowRoot-init-customElementRegistry.html",
+      "sha256": "91ff1dbef65db6c9983cc73b5875253ab2e1d534149c698beff06f69b0eb75d7",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/customized-builtins/HTMLMeterElement.html",
+      "source": "custom-elements/reactions/customized-builtins/HTMLMeterElement.html",
+      "sha256": "464476e4db2f383364045c95777fa8631c79f853568f3708040463ccf02054a9",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "value, min, max, low, high, optimum of\n  HTMLMeterElement interface must have CEReactions"
+        ],
+        "help": [
+          "https://html.spec.whatwg.org/#the-meter-element"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/Animation.html",
+      "source": "custom-elements/reactions/Animation.html",
+      "sha256": "6e8aa702b072094ac47748120260a0295078f2423930e2c9af88c23db6f5be37",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "commitStyles of Animation interface must have CEReactions"
+        ],
+        "help": [
+          "https://dom.spec.whatwg.org/#element",
+          "https://w3c.github.io/DOM-Parsing/"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/customized-builtins/HTMLAreaElement.html",
+      "source": "custom-elements/reactions/customized-builtins/HTMLAreaElement.html",
+      "sha256": "e72bea6f47ab22cbf885c8991070536ab17d580621d9605fcc609f6e963aab29",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "alt, coords, shape, target, download, ping, rel,\n  referrerPolicy of HTMLAreaElement interface must have CEReactions"
+        ],
+        "help": [
+          "https://html.spec.whatwg.org/#the-area-element"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/state/state-css-selector-shadow-dom.html",
+      "source": "custom-elements/state/state-css-selector-shadow-dom.html",
+      "sha256": "f3d310ab3c9e2319366fc3b49fe675095f71aca26eaf32c49048105462c1867a",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/attribute-changed-callback.html",
+      "source": "custom-elements/attribute-changed-callback.html",
+      "sha256": "d8e17848b1d19b96b3d6414d78432d108b323566ae6810ec8b678bf9460153de",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "attributeChangedCallback must be enqueued whenever custom element's attribute is added, changed or removed"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/state/custom-state-set-strong-ref.html",
+      "source": "custom-elements/state/custom-state-set-strong-ref.html",
+      "sha256": "d6a67c252713bcde1df512df6881ab7bbe9104e46e9d67fe02d88d6ae313ccea",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/form-associated/fieldset-elements-during-construction.html",
+      "source": "custom-elements/form-associated/fieldset-elements-during-construction.html",
+      "sha256": "ac05acee01ccab1473412e81ef81cd0aac0e6b5b00b5c5205bc81e11c70bc1cb",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/parser/parser-constructs-custom-element-synchronously.html",
+      "source": "custom-elements/parser/parser-constructs-custom-element-synchronously.html",
+      "sha256": "1e6afa65d72f27aa109351f62f0062bdd5297147be477136cab4915a9f811413",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "HTML parser must construct a custom element synchronously"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/form-associated/ElementInternals-form.html",
+      "source": "custom-elements/form-associated/ElementInternals-form.html",
+      "sha256": "0183e707c7dd73a2ac20870071df1dd82264557abcf9633f793fc4a63c6a0f36",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/customized-builtins/HTMLButtonElement.html",
+      "source": "custom-elements/reactions/customized-builtins/HTMLButtonElement.html",
+      "sha256": "afa903249ecb5e3e1e29601a8f4a038c5365bfe4ce2cbf99fa3852d8ab351ca9",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          " autofocus, disabled, formAction, formEnctype,\n  formMethod, formNoValidate, formTarget, name, type, value\n  of HTMLButtonElement interface must have CEReactions"
+        ],
+        "help": [
+          "https://html.spec.whatwg.org/#htmlbuttonelement"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/custom-elements/reactions/with-exceptions.html",
+      "source": "custom-elements/reactions/with-exceptions.html",
+      "sha256": "b433f7e9295478ced8be4fd629e2f653ba7b76686399ecaa8b21c8c5540558cf",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "https://html.spec.whatwg.org/multipage/#cereactions",
+          "https://github.com/whatwg/html/pull/3235"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/untriaged/styles/test-008.html",
+      "source": "shadow-dom/untriaged/styles/test-008.html",
+      "sha256": "aad969c32610775990775696ca52e675ca3c2a62c90420a20c75d72b9cd09c80",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Styles:the styles of the shadow host are inherited by the children of the shadow root"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/focus/text-selection-with-delegatesFocus-text-control.html",
+      "source": "shadow-dom/focus/text-selection-with-delegatesFocus-text-control.html",
+      "sha256": "e873913a09521398f4d32e8060e3dc3c3bc820f8dfe39a46faf6db0dab12b938",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": true,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/focus-navigation/reading-flow/grid-order-with-position-fixed.html",
+      "source": "shadow-dom/focus-navigation/reading-flow/grid-order-with-position-fixed.html",
+      "sha256": "afc77c9bb33eaa8b913c8f8f41151eb3631a8b3b1af3a891443eb8a2503fadf2",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": true,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/untriaged/html-elements-in-shadow-trees/inert-html-elements/test-001.html",
+      "source": "shadow-dom/untriaged/html-elements-in-shadow-trees/inert-html-elements/test-001.html",
+      "sha256": "c6b6f6cb1f77179747e43c43c4681adc27fc94cb080dbf0f864a25807a35b527",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "HTML Elements in shadow trees: base element must behave as inert, or not part of the document tree"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/declarative/gethtml-ordering.html",
+      "source": "shadow-dom/declarative/gethtml-ordering.html",
+      "sha256": "f1f8b80e7d87038e23d0e40406289350eb8c4861b213897cf72cdcd3914fde8c",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/getElementById-dynamic-002.html",
+      "source": "shadow-dom/getElementById-dynamic-002.html",
+      "sha256": "5fd116180359008c0122e0dc5402264f25947cc8d29d7925742129e16ec389f3",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/Slottable-mixin.html",
+      "source": "shadow-dom/Slottable-mixin.html",
+      "sha256": "21462789fdd0da5dde3435b507b3d0209fdacf1057b212e8a168802baf7ea568",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "Element and Text interfaces must implement Slottable mixin"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/Document-prototype-importNode.html",
+      "source": "shadow-dom/Document-prototype-importNode.html",
+      "sha256": "8bc34a061a590245b6f47f25b9e40bc1d6baa4877a8f1871fe6c72714cb68874",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "The importNode(node, deep) method must throw a NotSupportedError exception if node is a shadow root."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/manual-slot-assignment-no-wrong-unassign.html",
+      "source": "shadow-dom/manual-slot-assignment-no-wrong-unassign.html",
+      "sha256": "34f0675edc33ee48412120c02621a289922f101fe68288edc8e8aa9e8f57035e",
+      "kind": "reftest",
+      "references": [
+        [
+          "manual-slot-assignment-no-wrong-unassign-ref.html",
+          "match"
+        ]
+      ],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html",
+      "source": "shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html",
+      "sha256": "f6f6eae114c6bb238b69632ea640681fa522a969458688490da8994a1d8483d3",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Upper-boundary encapsulation: The ownerDocument property of all nodes in shadow tree refers to the document of the shadow host."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/focus/click-focus-delegatesFocus-tabindex-zero.html",
+      "source": "shadow-dom/focus/click-focus-delegatesFocus-tabindex-zero.html",
+      "sha256": "835bf35bc61d2c1b9d3e3ac8319265171d03ebccbb9134d6fc0f80e7aa6d7b27",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": true,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html",
+      "source": "shadow-dom/untriaged/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html",
+      "sha256": "d7b97b548b1bab6d5175ca205d3567b3fa5edef8cf714c674e522e0203a2a9cf",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Upper-boundary encapsulation: The shadow nodes and named shadow elements are not accessible using shadow host's document DOM tree accessors."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/assign-slottables-after-removing-shadow-tree-from-document.html",
+      "source": "shadow-dom/assign-slottables-after-removing-shadow-tree-from-document.html",
+      "sha256": "b348932b27a914684dbec71d7321bf1067680248b3172e4cfeba777c71b9587a",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "Slottables should be assigned to slots even after the shadow host has been removed from the document"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/declarative/tentative/shadowrootadoptedstylesheets/shadowrootadoptedstylesheets-modulepreload-ordering.html",
+      "source": "shadow-dom/declarative/tentative/shadowrootadoptedstylesheets/shadowrootadoptedstylesheets-modulepreload-ordering.html",
+      "sha256": "dffebda49b99cfa892d09008c3cf44af0601fb55b7f926ebc14b2b8afeba1030",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/focus-navigation/reading-flow/flex-flow.html",
+      "source": "shadow-dom/focus-navigation/reading-flow/flex-flow.html",
+      "sha256": "106734d68607119e3b045021b7e9f9ed2ca29638b8c0bc0f9646bdd6927d9554",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": true,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/declarative/innerhtml-before-closing-tag.html",
+      "source": "shadow-dom/declarative/innerhtml-before-closing-tag.html",
+      "sha256": "f7efef5029e635f141135baa074135e7ca3dd069be2964c10b310e8d6780bb70",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/event-with-related-target.html",
+      "source": "shadow-dom/event-with-related-target.html",
+      "sha256": "37b03f677f4ef499e43331831b74986ac0915086ab0d54a2341f0df4e5fdb4ef",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "author": [
+          ""
+        ],
+        "assert": [
+          "The retargeting algorithm is used to determine relative targets"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/untriaged/user-interaction/ranges-and-selections/test-002.html",
+      "source": "shadow-dom/untriaged/user-interaction/ranges-and-selections/test-002.html",
+      "sha256": "0ffe5ab60b942e818bbcbd8e767a040e611ae2c0193b31cda528c2f187c61b98",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "User Interaction: The getSelection() method of the shadow root object must return the current selection in this shadow tree."
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/focus-navigation/focus-reverse-unassignable-slot.html",
+      "source": "shadow-dom/focus-navigation/focus-reverse-unassignable-slot.html",
+      "sha256": "67e85d700765c71ecdbcf0d0049b5985a92c5adbe8b9335b73f55836f9ae30c4",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": true,
+      "scheme": "http"
+    },
+    {
+      "area": "web-components",
+      "url": "/shadow-dom/untriaged/events/retargeting-focus-events/test-003.html",
+      "source": "shadow-dom/untriaged/events/retargeting-focus-events/test-003.html",
+      "sha256": "d3f8f6f49a42d37a12bdc1c2e64f3939a4c57f396b450f42923b3a3e783bd9a9",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "assert": [
+          "Retargeting focus events:The focus event must be treated in the same way as events with a relatedTarget, where the corresponding node that is losing focus as a result of target gaining focus or the node that is gaining focus"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/request-init-003.sub.html",
+      "source": "fetch/api/request/request-init-003.sub.html",
+      "sha256": "7675f625858ad452e17f2e92b483416b7c28a65701a628fa53c199a0b0f29f28",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/policies/referrer-origin.html",
+      "source": "fetch/api/policies/referrer-origin.html",
+      "sha256": "9794377219fb6262e6690551208cc39e112c0946db120750ce4d663a73c1bf07",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/multi-globals/url-parsing.html",
+      "source": "fetch/api/request/multi-globals/url-parsing.html",
+      "sha256": "b0f6ca9333eeb390e6cf3125f258be2649d7808c255c5534c5bd19764901585b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/request-keepalive-quota.html?include=slow-3",
+      "source": "fetch/api/request/request-keepalive-quota.html",
+      "sha256": "f9afcc774a8df4d957909fb1e2d728fec5c5f87954f4bb0c4af81be710ab1e9c",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ],
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ],
+        "variant": [
+          "?include=fast",
+          "?include=slow-1",
+          "?include=slow-2",
+          "?include=slow-3"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/basic/block-mime-as-script.html",
+      "source": "fetch/api/basic/block-mime-as-script.html",
+      "sha256": "4ff8959defc33432fa3eb044e8eaa4854ddeb2e4a22cee1772955ddd6f1f328d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/cors/data-url-shared-worker.html",
+      "source": "fetch/api/cors/data-url-shared-worker.html",
+      "sha256": "fe44d803a87b8350ed90382d381e61ce73baa4ae137c637e62b68a0c3085427f",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/response/response-consume.html",
+      "source": "fetch/api/response/response-consume.html",
+      "sha256": "a928d0af57d9a665d54733299c4e9b28c888cc435bb8329b59389697295538ce",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/response/multi-globals/url-parsing.html",
+      "source": "fetch/api/response/multi-globals/url-parsing.html",
+      "sha256": "8953ebb299170e8d548ef86aeca0ec224788533a7e82223419eb4baf84d51dd8",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/policies/referrer-unsafe-url.html",
+      "source": "fetch/api/policies/referrer-unsafe-url.html",
+      "sha256": "11425fa6d6626228a3890d1aa6d4476f50df7626442a762d010a39878e6654e1",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/request-clone.sub.html",
+      "source": "fetch/api/request/request-clone.sub.html",
+      "sha256": "e865105f6f694496d8b12aff5b5d0f7bd5b9f60209192e2a55e8efdbf3212886",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/policies/referrer-no-referrer-service-worker.https.html",
+      "source": "fetch/api/policies/referrer-no-referrer-service-worker.https.html",
+      "sha256": "8d949931f2bbfc8e0873a098daa00c25c03ba4bde09ebaf9dfbaa7c152e4ff1e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/request-keepalive-quota.html?include=slow-1",
+      "source": "fetch/api/request/request-keepalive-quota.html",
+      "sha256": "f9afcc774a8df4d957909fb1e2d728fec5c5f87954f4bb0c4af81be710ab1e9c",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ],
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ],
+        "variant": [
+          "?include=fast",
+          "?include=slow-1",
+          "?include=slow-2",
+          "?include=slow-3"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/policies/referrer-origin-when-cross-origin.html",
+      "source": "fetch/api/policies/referrer-origin-when-cross-origin.html",
+      "sha256": "58c124227d152616b3cc4d1f8ac716f04e4199f3a858c0a1206183d712d32131",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/request-keepalive-quota.html?include=fast",
+      "source": "fetch/api/request/request-keepalive-quota.html",
+      "sha256": "f9afcc774a8df4d957909fb1e2d728fec5c5f87954f4bb0c4af81be710ab1e9c",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ],
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ],
+        "variant": [
+          "?include=fast",
+          "?include=slow-1",
+          "?include=slow-2",
+          "?include=slow-3"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/abort/destroyed-context.html",
+      "source": "fetch/api/abort/destroyed-context.html",
+      "sha256": "282a864632c3aca08639560d488da5a992b32db84c60e8e6051f214fd530875b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/url-encoding.html",
+      "source": "fetch/api/request/url-encoding.html",
+      "sha256": "2767fdea5bdadcd5530c1c5abb4b8fe26ed2c3af12cf7530154fa5d30986b475",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/response/response-body-stashed-chunk.html",
+      "source": "fetch/api/response/response-body-stashed-chunk.html",
+      "sha256": "584c496dc14dcea70c1f77be08450d768900f401add57bda6677a7b2f201c761",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/policies/referrer-unsafe-url-service-worker.https.html",
+      "source": "fetch/api/policies/referrer-unsafe-url-service-worker.https.html",
+      "sha256": "db02e9920de2bc22c916ea1cf88b22d5db28a262d63743ec829b1afa01ed0f5d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/policies/referrer-no-referrer-worker.html",
+      "source": "fetch/api/policies/referrer-no-referrer-worker.html",
+      "sha256": "a04d5da244286ad068f72ae8c5b1038ea091e8b8397692c84541f2d5a7b7cd90",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          "",
+          ""
+        ],
+        "author": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/fetch/api/request/destination/fetch-destination.https.html",
+      "source": "fetch/api/request/destination/fetch-destination.https.html",
+      "sha256": "5f300c9aa40a5090264e6e8ff2ddaa18face31359f1961330aa338ca98454d95",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "https"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_local_window_open_oldvalue.html",
+      "source": "webstorage/event_local_window_open_oldvalue.html",
+      "sha256": "67dc140183a32a1a63c27e12a464c448380b0cfbd95f371b9446630101c648e5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_session_oldvalue.html",
+      "source": "webstorage/event_session_oldvalue.html",
+      "sha256": "89ab38abd3ffff6e205a1ad08ebc257fc4a9ce870bf1c957e5725b884ccdaa2f",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_body_attribute.html",
+      "source": "webstorage/event_body_attribute.html",
+      "sha256": "dce45fc95af882a8e844f2e23b89f1a6e0311660cef7a4576905b446ea811545",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/localstorage-share-data-unrelated-origins.html",
+      "source": "webstorage/localstorage-share-data-unrelated-origins.html",
+      "sha256": "e932b9555c18d358fa8c67c524b3e604cc724295f67f05b71614ddc4832d3208",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/sessionStorage-basic-partitioned.sub.html",
+      "source": "webstorage/sessionStorage-basic-partitioned.sub.html",
+      "sha256": "d1c55f17cd1d63be4a03b75d72fde5ae8da81f71c2a9db3aa2eb9acb3d9ff28e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_local_newvalue.html",
+      "source": "webstorage/event_local_newvalue.html",
+      "sha256": "27ddead6182a8a09d0944feda59c75953f31276ff5669dd2da7eb2415d4bba25",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_session_window_open_scope.html",
+      "source": "webstorage/event_session_window_open_scope.html",
+      "sha256": "ad58ad310e842e36cd91c760035222ee74a069b1dab36dfcdddd90134bb10ee5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_session_newvalue.html",
+      "source": "webstorage/event_session_newvalue.html",
+      "sha256": "908718c623478999e8bf3e8d59f6814de3b04370a5184f66fda6c3fc270cdd90",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_setattribute.html",
+      "source": "webstorage/event_setattribute.html",
+      "sha256": "0fa230d5579c0cb1ad908793d0f04451247cf583afb62e2cce8d994a1289af2b",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_local_url.html",
+      "source": "webstorage/event_local_url.html",
+      "sha256": "a8c9ba81427eb432ff2098e8ad2b4867d60e3a680590ffedf4a37f47ffbffe20",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_no_duplicates.html",
+      "source": "webstorage/event_no_duplicates.html",
+      "sha256": "4a0dafb81032c480d4536bfc15baf0040c36bed8f5b49a322d52b32e40e13d00",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_case_sensitive.html",
+      "source": "webstorage/event_case_sensitive.html",
+      "sha256": "23f2b1e8b2c44784bff654d6a4be99715c3d134f33b23119db8ec6822686494d",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/localstorage-basic-partitioned.sub.html",
+      "source": "webstorage/localstorage-basic-partitioned.sub.html",
+      "sha256": "090081d7550ed82bcf4c57bc0ce576dd437329014b1f3bf18a99737b4eae9f9e",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_session_key.html",
+      "source": "webstorage/event_session_key.html",
+      "sha256": "cd0bf816fc0428f1170763a145d71c6ba2c48126907605319522b714bb5fb2e4",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_session_storagearea.html",
+      "source": "webstorage/event_session_storagearea.html",
+      "sha256": "cb2918270873bc61a0c53e25f2ec59c4597c34a7b466410919c6a014c8092cc9",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_session_removeitem.html",
+      "source": "webstorage/event_session_removeitem.html",
+      "sha256": "563806193398e501a80f4a8cdbabdc30e78e2fecc93e6a1a8a3908455ab08879",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/localstorage-about-blank-3P-iframe-opens-3P-window.partitioned.html",
+      "source": "webstorage/localstorage-about-blank-3P-iframe-opens-3P-window.partitioned.html",
+      "sha256": "b85deccff70c913e2fa12ca692db90c63ca4108bf135367daac3aea5623dcbf5",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "help": [
+          ""
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/document-domain.html",
+      "source": "webstorage/document-domain.html",
+      "sha256": "64da7256fc53d89ec076284a51789f549871db7aa2c8832ed79d980850f3a14a",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_basic.html",
+      "source": "webstorage/event_basic.html",
+      "sha256": "316fe6562eea6a3ad878dafb34f69c299344e5c1cd6e37d60ef3aadc19500882",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {
+        "timeout": [
+          "long"
+        ]
+      },
+      "testdriver": false,
+      "scheme": "http"
+    },
+    {
+      "area": "network-storage",
+      "url": "/webstorage/event_local_removeitem.html",
+      "source": "webstorage/event_local_removeitem.html",
+      "sha256": "aef35f984a1e4162b60347c0a51c8a0825645803b7bb591bda5cb55ddc5876e6",
+      "kind": "testharness",
+      "references": [],
+      "metadata": {},
+      "testdriver": false,
+      "scheme": "http"
+    }
+  ]
+}

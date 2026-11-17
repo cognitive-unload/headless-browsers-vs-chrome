@@ -1,0 +1,113 @@
+{
+  "note": "Generated from the successful build attempt (R4) receipt. Host paths, internal IDs and environment values omitted.",
+  "attempt": "R4",
+  "node_image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+  "source_preserved": true,
+  "allowed_build_settings_change": "apps/web/next.config.js: webpack SVG rule equivalent to upstream Turbopack rule",
+  "build_succeeded": true,
+  "steps": [
+    {
+      "label": "registry-fetch",
+      "exit_code": 0,
+      "image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+      "user": "1000:1000",
+      "network": "bridge",
+      "cpus": 2.0,
+      "memory_bytes": 8589934592,
+      "pids_limit": 1024,
+      "read_only_root": true,
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges"
+      ],
+      "mount_targets": [
+        "/opt/BUILD_ENTRY.cjs",
+        "/opt/kan-build/fonts",
+        "/opt/pnpm",
+        "/store",
+        "/work"
+      ],
+      "environment_names": [
+        "AWS_EC2_METADATA_DISABLED",
+        "BETTER_AUTH_SECRET",
+        "CI",
+        "COREPACK_ENABLE_PROJECT_SPEC",
+        "HOME",
+        "NEXT_FONT_GOOGLE_MOCKED_RESPONSES",
+        "NEXT_PUBLIC_ALLOW_CREDENTIALS",
+        "NEXT_PUBLIC_BASE_URL",
+        "NEXT_PUBLIC_DISABLE_EMAIL",
+        "NEXT_PUBLIC_USE_STANDALONE_OUTPUT",
+        "NEXT_TELEMETRY_DISABLED",
+        "NODE_VERSION",
+        "PATH",
+        "POSTGRES_URL",
+        "TURBO_TELEMETRY_DISABLED",
+        "XDG_CACHE_HOME",
+        "YARN_VERSION",
+        "npm_config_ignore_scripts",
+        "npm_config_registry",
+        "npm_config_update_notifier"
+      ],
+      "command": [
+        "/opt/pnpm/bin/pnpm.cjs",
+        "fetch",
+        "--frozen-lockfile",
+        "--ignore-scripts",
+        "--store-dir",
+        "/store"
+      ]
+    },
+    {
+      "label": "offline-build",
+      "exit_code": 0,
+      "image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+      "user": "1000:1000",
+      "network": "none",
+      "cpus": 2.0,
+      "memory_bytes": 8589934592,
+      "pids_limit": 1024,
+      "read_only_root": true,
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges"
+      ],
+      "mount_targets": [
+        "/opt/BUILD_ENTRY.cjs",
+        "/opt/kan-build/fonts",
+        "/opt/pnpm",
+        "/store",
+        "/work"
+      ],
+      "environment_names": [
+        "AWS_EC2_METADATA_DISABLED",
+        "BETTER_AUTH_SECRET",
+        "CI",
+        "COREPACK_ENABLE_PROJECT_SPEC",
+        "HOME",
+        "NEXT_FONT_GOOGLE_MOCKED_RESPONSES",
+        "NEXT_PUBLIC_ALLOW_CREDENTIALS",
+        "NEXT_PUBLIC_BASE_URL",
+        "NEXT_PUBLIC_DISABLE_EMAIL",
+        "NEXT_PUBLIC_USE_STANDALONE_OUTPUT",
+        "NEXT_TELEMETRY_DISABLED",
+        "NODE_VERSION",
+        "PATH",
+        "POSTGRES_URL",
+        "TURBO_TELEMETRY_DISABLED",
+        "XDG_CACHE_HOME",
+        "YARN_VERSION",
+        "npm_config_ignore_scripts",
+        "npm_config_registry",
+        "npm_config_update_notifier"
+      ],
+      "command": [
+        "/opt/BUILD_ENTRY.cjs"
+      ]
+    }
+  ]
+}

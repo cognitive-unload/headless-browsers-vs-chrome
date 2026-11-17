@@ -1,0 +1,122 @@
+[
+  {
+    "engine": "chrome",
+    "source": "fixture-chrome/out/07-add-card-3.png",
+    "file": "KAN_CHROME_07_ADD_CARD_3.png",
+    "sha256": "d725a3b20f2e98125d5a0b4b691a92a56e9fd4f7115601afd1cf075d2c3e2f14",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "chrome",
+    "source": "fixture-chrome/out/10-edit-card-dialog.png",
+    "file": "KAN_CHROME_10_EDIT_CARD_DIALOG.png",
+    "sha256": "249f52942ababd4a642d22a6296512e3fabb27a33716dfa862289f8e3e9cb381",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "chrome",
+    "source": "fixture-chrome/out/11-phone-board.png",
+    "file": "KAN_CHROME_11_PHONE_BOARD.png",
+    "sha256": "d77307e4837a0cdb13dbeb0e53ffde7392f901c65b964285e154d9bf30dae1b2",
+    "dimensions": [
+      360,
+      720
+    ]
+  },
+  {
+    "engine": "obscura",
+    "source": "fixture-obscura/out/07-add-card-3.png",
+    "file": "KAN_OBSCURA_07_ADD_CARD_3.png",
+    "sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "obscura",
+    "source": "fixture-obscura/out/08-drag-card.png",
+    "file": "KAN_OBSCURA_08_DRAG_CARD.png",
+    "sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "obscura",
+    "source": "fixture-obscura/out/phone-at-stop.png",
+    "file": "KAN_OBSCURA_PHONE_AT_STOP.png",
+    "sha256": "7e5fffb9481979b58f79877cbecca7c1ae3f934e4dd252df56f38b042ffe6551",
+    "dimensions": [
+      360,
+      720
+    ]
+  },
+  {
+    "engine": "moli",
+    "source": "fixture-moli/out/01-sign-in.png",
+    "file": "KAN_MOLI_01_SIGN_IN.png",
+    "sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "moli",
+    "source": "fixture-moli/out/02-create-board.png",
+    "file": "KAN_MOLI_02_CREATE_BOARD.png",
+    "sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "moli",
+    "source": "fixture-moli/out/phone-at-stop.png",
+    "file": "KAN_MOLI_PHONE_AT_STOP.png",
+    "sha256": "3319bebcdb3a9fe4c5660be0240fd860ad163417e0c16d1799b1a9af4654420a",
+    "dimensions": [
+      360,
+      720
+    ]
+  },
+  {
+    "engine": "lightpanda",
+    "source": "fixture-lightpanda/out/01-sign-in.png",
+    "file": "KAN_LIGHTPANDA_01_SIGN_IN.png",
+    "sha256": "af399fcf5c21c9269415f58af269b89831e746dc9f72697aa61f6bfb5892f9d5",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "lightpanda",
+    "source": "fixture-lightpanda/out/03-add-list-1.png",
+    "file": "KAN_LIGHTPANDA_03_ADD_LIST_1.png",
+    "sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  {
+    "engine": "lightpanda",
+    "source": "fixture-lightpanda/out/phone-at-stop.png",
+    "file": "KAN_LIGHTPANDA_PHONE_AT_STOP.png",
+    "sha256": "b84029502ae4044320b4f4dc7194acfcff43859614c943dbcada2187505e6ade",
+    "dimensions": [
+      360,
+      720
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "page": {
+    "dark": true,
+    "text": "C\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nCW-3\nReview browser results\nCW-2\nRecord UI walkthrough\nCW-1\nCheck mobile layout\n\nBoard | Capture workspace",
+    "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+    "viewport": [
+      360,
+      720,
+      1
+    ]
+  },
+  "capture": {
+    "file": "phone-at-stop.png",
+    "sha256": "7e5fffb9481979b58f79877cbecca7c1ae3f934e4dd252df56f38b042ffe6551",
+    "dimensions": [
+      360,
+      720
+    ]
+  }
+}

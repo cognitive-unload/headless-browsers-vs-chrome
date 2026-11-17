@@ -1,0 +1,4 @@
+{
+  "error": "Stop dependent path after add-list-1",
+  "traceback": "Traceback (most recent call last):\n  File \"/opt/kan-capture/KAN_CAPTURE.py\", line 99, in <module>\n    step('add-list-1',lambda:create_list('To do'),'document.querySelectorAll(\"input[aria-label=\\\\\"List name\\\\\"]\").length===1',lambda s:len(s['lists'] or [])==1)\n  File \"/opt/kan-capture/KAN_CAPTURE.py\", line 63, in step\n    if row['action']!='done' or (engine=='chrome' and row.get('capture_error')):raise RUN.ActionError('Stop dependent path after '+name)\n                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRUN.ActionError: Stop dependent path after add-list-1\n"
+}

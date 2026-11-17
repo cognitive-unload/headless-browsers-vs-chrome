@@ -1,0 +1,12 @@
+{
+  "browser_host":"web-platform.test", "server_host":"127.0.0.1", "bind_address":true,
+  "doc_root":"/opt/wpt", "ws_doc_root":"/opt/wpt/websockets/handlers",
+  "check_subdomains":true,
+  "ports":{"http":[8000,8001],"http-local":[8002],"http-public":[8003],
+    "https":[8443,8444],"https-local":[8445],"https-public":[8446],
+    "h2":[9000],"ws":[8888],"wss":[8889],"webtransport-h3":[],"dns":[]},
+  "ssl":{"type":"pregenerated","pregenerated":{
+    "host_key_path":"/opt/wpt/tools/certs/web-platform.test.key",
+    "host_cert_path":"/opt/wpt/tools/certs/web-platform.test.pem",
+    "ca_cert_path":"/opt/wpt/tools/certs/cacert.pem"}}
+}

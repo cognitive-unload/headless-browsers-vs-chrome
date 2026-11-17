@@ -1,0 +1,138 @@
+[
+  {
+    "number": 1,
+    "name": "sign-in",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": null,
+      "lists": null,
+      "cards": null
+    },
+    "page": {
+      "dark": false,
+      "text": "kan.bn\nCCapture workspace\nBoards\nGB\nTemplates\nGT\nMembers\nGM\nSettings\nGS\nCapture User\nBoards\nImport\nNew\nActive\nActiveArchived\n\nNo boards\n\nGet started by creating a new board\n\nCreate new board",
+      "url": "http://127.0.0.1:3000/boards",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "01-sign-in.png",
+      "sha256": "af399fcf5c21c9269415f58af269b89831e746dc9f72697aa61f6bfb5892f9d5",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 2,
+    "name": "create-board",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "a6co1aanzkbl",
+          "name": "Release planning"
+        }
+      ],
+      "lists": null,
+      "cards": null
+    },
+    "page": {
+      "dark": false,
+      "text": "",
+      "url": "http://127.0.0.1:3000/boards/a6co1aanzkbl",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "02-create-board.png",
+      "sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 3,
+    "name": "add-list-1",
+    "action": "failed",
+    "error": "App observation deadline: (()=>{const e=[...document.querySelectorAll(\"button\")].find(e=>e.textContent.trim()===\"New list\" && e.getBoundingClientRect().width>0 && e.getBoundingClientRect().height>0 && !e.disabled);if(!e)return null;if(e.id)return \"#\"+CSS.escape(e.id);let p=e,s=[];while(p&&p.tagName!==\"HTML\"){let n=1,q=p;while(q=q.previousElementSibling)if(q.tagName===p.tagName)n++;s.unshift(p.tagName.toLowerCase()+\":nth-of-type(\"+n+\")\");p=p.parentElement;}return s.join(\" > \")})()",
+    "page": {
+      "dark": false,
+      "text": "",
+      "url": "http://127.0.0.1:3000/boards/a6co1aanzkbl",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "a6co1aanzkbl",
+          "name": "Release planning"
+        }
+      ],
+      "lists": null,
+      "cards": null
+    },
+    "capture": {
+      "file": "03-add-list-1.png",
+      "sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  }
+]

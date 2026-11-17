@@ -1,0 +1,757 @@
+{
+  "about": "SHA256 of every file copied from the original test material. tested_sha256 is the hash recorded for the file that ran (board core set: results/board/CORE_HARNESS_SHA256.json; rig and image kits: their original file manifests; captures: results/board/CAPTURE_MANIFEST.json). Each source file was checked against that hash before copying. repo_sha256 is the file as it is in this repository. Generated files (README, SANITISATION, LICENSE, *_SUMMARY.json) are not listed.",
+  "files": [
+    {
+      "repo_path": "harness/KAN_CAPTURE.py",
+      "tested_sha256": "2c5b667489a3a778b3989177caed8b8bd709c2d8a18edf51042d5cc02d887965",
+      "repo_sha256": "df8a804d3168c0c3e19e1e8aa5c8fb4efe0a2926914cea29b807a4fb1f2de6fb",
+      "status": "changed from tested hash 2c5b667489a3a778b3989177caed8b8bd709c2d8a18edf51042d5cc02d887965"
+    },
+    {
+      "repo_path": "harness/KAN_FIXTURE.py",
+      "tested_sha256": "a1d9ec3122334f7fab362d4e3070856200c059c52b40b56c459e2b71d43be6f3",
+      "repo_sha256": "b75ce5522d22403146f5010043704f0f74f834695c0fd716031fa45d4b6723fb",
+      "status": "changed from tested hash a1d9ec3122334f7fab362d4e3070856200c059c52b40b56c459e2b71d43be6f3"
+    },
+    {
+      "repo_path": "harness/KAN_RUN_ENGINE.py",
+      "tested_sha256": "29d0aa6ba0b7111a8aeaddab6de1be26808d8b683dbc571564ea52ca8fa70150",
+      "repo_sha256": "303a4c21d5071d6fa9bafea923f5a4cd21cc5548ca012177f9397f137c1ea161",
+      "status": "changed from tested hash 29d0aa6ba0b7111a8aeaddab6de1be26808d8b683dbc571564ea52ca8fa70150"
+    },
+    {
+      "repo_path": "harness/KAN_SESSION.py",
+      "tested_sha256": "3e8e49c148c467a9fb484918d5d4a5650a52c0249eee8a2434251055d0294052",
+      "repo_sha256": "3e8e49c148c467a9fb484918d5d4a5650a52c0249eee8a2434251055d0294052",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "harness/KAN_BUILD_R4.py",
+      "tested_sha256": "d0dcca4bf1ea90f4e83b6adc982b8624b7e12e4c03e2d393f5bac16b71cfb3ab",
+      "repo_sha256": "21cf39721cd13d8908b22ebc3a231eab731d39fce8a2acd16ccbe2726ed45b45",
+      "status": "changed from tested hash d0dcca4bf1ea90f4e83b6adc982b8624b7e12e4c03e2d393f5bac16b71cfb3ab"
+    },
+    {
+      "repo_path": "harness/setup/KAN_SEED_UI.py",
+      "tested_sha256": null,
+      "repo_sha256": "ce23d252aa5156933e0cdf8a200b07bb9e82e54d5d9c39c1c7c3775e52f5b194",
+      "status": "not hash-pinned in the sources; copied with changes",
+      "note": "Sign-up and workspace helper found next to the harness. Whether this exact file created the baseline is not checked."
+    },
+    {
+      "repo_path": "harness/build-inputs/SOURCE_SHA256.json",
+      "tested_sha256": null,
+      "repo_sha256": "86bd6d2341a49bacf3a771744bec46dd5f0752483b5773e20ee82ff4a9018ae8",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "harness/build-inputs/PREPARE_FONT_INPUT.py",
+      "tested_sha256": null,
+      "repo_sha256": "9ece6872d51430664162d31faeca7f325885197bcf14bd5850dd3f0f275cd95b",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "harness/build-inputs/FONT_RECEIPT.json",
+      "tested_sha256": null,
+      "repo_sha256": "6d02e9e13a1dd50c20405e8b2b24079f5c80aba2205c5ffbf16f89577356c698",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "harness/rig/RUN.py",
+      "tested_sha256": "975ed19c99c8847d24a79ebb7deacba53506fa1143ee23a2f58fd2122a17aa67",
+      "repo_sha256": "f6adb638451e7ada8e2041135e17607c41b20bf3c98d8bf9f42b33613fd2af40",
+      "status": "changed from tested hash 975ed19c99c8847d24a79ebb7deacba53506fa1143ee23a2f58fd2122a17aa67"
+    },
+    {
+      "repo_path": "harness/rig/READY.js",
+      "tested_sha256": "d0e3d9f2ca70158bf855787f4cdc58d815f6471750b881e5baa32a65f098959b",
+      "repo_sha256": "b94755f98472622abb6c6fcd46449e93366b82b5bd0d7d38b4f8701376bc95ab",
+      "status": "changed from tested hash d0e3d9f2ca70158bf855787f4cdc58d815f6471750b881e5baa32a65f098959b"
+    },
+    {
+      "repo_path": "harness/rig/SITE_PROBE.js",
+      "tested_sha256": "ff7798d4dbcd3cc3d47a26cb97aab72a522b4319330e42b0113c819d4e36e81d",
+      "repo_sha256": "77636946fbe2876d70a7f943e68c584066bfc2fecb04dfff23346dec9c7311bc",
+      "status": "changed from tested hash ff7798d4dbcd3cc3d47a26cb97aab72a522b4319330e42b0113c819d4e36e81d"
+    },
+    {
+      "repo_path": "harness/rig/SITE_TEXT.js",
+      "tested_sha256": "df7c6da6fae65fa253de734f30593bea0f75209e88624f9e5177784ee8b432b0",
+      "repo_sha256": "80ad22623c77f2cc137c7707922bc7ad7a013a25ce3ae3d96bf076e35c6e321e",
+      "status": "changed from tested hash df7c6da6fae65fa253de734f30593bea0f75209e88624f9e5177784ee8b432b0"
+    },
+    {
+      "repo_path": "harness/rig/PNG.py",
+      "tested_sha256": "3ee8fc1c8ffbcdd39cfa5e588e8ea8b3f2bd963a412e4e44ba2fedc24fa45d4d",
+      "repo_sha256": "3ee8fc1c8ffbcdd39cfa5e588e8ea8b3f2bd963a412e4e44ba2fedc24fa45d4d",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "harness/rig/LOCAL_NETWORK.py",
+      "tested_sha256": "61b25dafa479f308aad507ffc3de2b371599fb145f99427c3c5ba9538038313f",
+      "repo_sha256": "61b25dafa479f308aad507ffc3de2b371599fb145f99427c3c5ba9538038313f",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "harness/rig/PROCESS_SNAPSHOT.py",
+      "tested_sha256": "889bb1fa13bb84e50b1282867e95f93efebd74cce37f7a53550f8f8148a5068a",
+      "repo_sha256": "889bb1fa13bb84e50b1282867e95f93efebd74cce37f7a53550f8f8148a5068a",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "harness/rig/SITE_POLICY.py",
+      "tested_sha256": "7b099a6d4b0a69024aa997cc7bd93e8e5eada417913273a07af898885863bc38",
+      "repo_sha256": "7b099a6d4b0a69024aa997cc7bd93e8e5eada417913273a07af898885863bc38",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "harness/rig/IMAGE_CHECK.py",
+      "tested_sha256": "eb5a59fcb9fece6e82afb4bdb11c512192f6dd035b316f8e9981a8e8294f0913",
+      "repo_sha256": "eb5a59fcb9fece6e82afb4bdb11c512192f6dd035b316f8e9981a8e8294f0913",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "harness/rig/ENGINE_BINARIES.json",
+      "tested_sha256": "fd70deeddd8aca3a8e40c93e95761fbff69de9a7b62014b3ffda0fe49c504d8a",
+      "repo_sha256": "69e1bf9e1d665354767a6d58924ce929ab39132e3611c080cfc388c5fac32a1e",
+      "status": "changed from tested hash fd70deeddd8aca3a8e40c93e95761fbff69de9a7b62014b3ffda0fe49c504d8a"
+    },
+    {
+      "repo_path": "memory/rig/SPEED.py",
+      "tested_sha256": "d03a2ba2c992f4c2608fc7e9aff054f2ad62b3cc0f65ecec6374ad0660b24258",
+      "repo_sha256": "d03a2ba2c992f4c2608fc7e9aff054f2ad62b3cc0f65ecec6374ad0660b24258",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/ENTRY.py",
+      "tested_sha256": "9e97d85430975afba5f8b434db59a415a25f9588f543f03f645e681de2698223",
+      "repo_sha256": "9e97d85430975afba5f8b434db59a415a25f9588f543f03f645e681de2698223",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/PNG.py",
+      "tested_sha256": "3ee8fc1c8ffbcdd39cfa5e588e8ea8b3f2bd963a412e4e44ba2fedc24fa45d4d",
+      "repo_sha256": "3ee8fc1c8ffbcdd39cfa5e588e8ea8b3f2bd963a412e4e44ba2fedc24fa45d4d",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/IMAGE_CHECK.py",
+      "tested_sha256": "eb5a59fcb9fece6e82afb4bdb11c512192f6dd035b316f8e9981a8e8294f0913",
+      "repo_sha256": "eb5a59fcb9fece6e82afb4bdb11c512192f6dd035b316f8e9981a8e8294f0913",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/SERVER.py",
+      "tested_sha256": "87386967c2939d77b8f3b576cf546103a1b474769b3e2946e10acaaab1ce433f",
+      "repo_sha256": "87386967c2939d77b8f3b576cf546103a1b474769b3e2946e10acaaab1ce433f",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/DNS.py",
+      "tested_sha256": "4ca71ba05a3880cf80ec3700ee985e88e28d64b0ae243049279f005aa3fe3152",
+      "repo_sha256": "4ca71ba05a3880cf80ec3700ee985e88e28d64b0ae243049279f005aa3fe3152",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/TLS_COMPAT.py",
+      "tested_sha256": "c09f8a295e532e9663b534be341fc05aa901b5317d14041c9745ed39c2f09c2f",
+      "repo_sha256": "c09f8a295e532e9663b534be341fc05aa901b5317d14041c9745ed39c2f09c2f",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/SUMMARIZE.py",
+      "tested_sha256": "0e1a8c0fe1c2a0e9c3b3a1a0dcadc8e4e364a35a2c56a052cd5f485156b753d7",
+      "repo_sha256": "0e1a8c0fe1c2a0e9c3b3a1a0dcadc8e4e364a35a2c56a052cd5f485156b753d7",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/WPT_CONFIG.json",
+      "tested_sha256": "c7010f463b9972e10edd47a996b08c6d5119e2c1343784548129fa0a172afb96",
+      "repo_sha256": "c7010f463b9972e10edd47a996b08c6d5119e2c1343784548129fa0a172afb96",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/WPT_SAMPLE.json",
+      "tested_sha256": "1223a2f00268cdb861e0d67aa02ecf5d3860a17d2bce7c6f9aef470c2fd6e981",
+      "repo_sha256": "1223a2f00268cdb861e0d67aa02ecf5d3860a17d2bce7c6f9aef470c2fd6e981",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/SITES.json",
+      "tested_sha256": "a8f67471e35a28e714a632d7e216a931ea841c6c06e749b8202c16b024f82004",
+      "repo_sha256": "a8f67471e35a28e714a632d7e216a931ea841c6c06e749b8202c16b024f82004",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/DEPENDENCIES.lock.json",
+      "tested_sha256": "0ac86e5fc50b61047d2d5d6a9e85f9e2639d1cb3147b2969971e42ef981a3b31",
+      "repo_sha256": "0ac86e5fc50b61047d2d5d6a9e85f9e2639d1cb3147b2969971e42ef981a3b31",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/requirements.lock",
+      "tested_sha256": "f75e09109f8e8f25932b5474b7e6dcedffe1faba3320daed8fd21fa786a2452b",
+      "repo_sha256": "f75e09109f8e8f25932b5474b7e6dcedffe1faba3320daed8fd21fa786a2452b",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig/BENCHMARK.mjs",
+      "tested_sha256": "c45b9c038c1ce31b7288d002de29e73272ab4c43237d285620adf1a33455da0b",
+      "repo_sha256": "0b677bf28efbb9a3eea16654d6f6e74c7169ba87ba0f826e03659972433dd483",
+      "status": "changed from tested hash c45b9c038c1ce31b7288d002de29e73272ab4c43237d285620adf1a33455da0b"
+    },
+    {
+      "repo_path": "memory/rig/RUN.py",
+      "tested_sha256": "4e775500626d9cb32862b48472257e0e32c69412c7adf7062dac467205090d3a",
+      "repo_sha256": "6dd750180a5d8f3c00b20d7a36b4f318ce81065eb06d3912a68cdf2473213409",
+      "status": "changed from tested hash 4e775500626d9cb32862b48472257e0e32c69412c7adf7062dac467205090d3a"
+    },
+    {
+      "repo_path": "memory/rig/READY.js",
+      "tested_sha256": "d0e3d9f2ca70158bf855787f4cdc58d815f6471750b881e5baa32a65f098959b",
+      "repo_sha256": "b94755f98472622abb6c6fcd46449e93366b82b5bd0d7d38b4f8701376bc95ab",
+      "status": "changed from tested hash d0e3d9f2ca70158bf855787f4cdc58d815f6471750b881e5baa32a65f098959b"
+    },
+    {
+      "repo_path": "memory/rig/COLLECTOR.js",
+      "tested_sha256": "0ef88035ca3c73f47f8a143da7dfd47040aa6353365e827d4c46878099f421d9",
+      "repo_sha256": "56a5c6c875da26bf8758bc887a2ebd701275445c82b243288c37bff3e0885ce5",
+      "status": "changed from tested hash 0ef88035ca3c73f47f8a143da7dfd47040aa6353365e827d4c46878099f421d9"
+    },
+    {
+      "repo_path": "memory/rig/ENGINE_BINARIES.json",
+      "tested_sha256": "fd70deeddd8aca3a8e40c93e95761fbff69de9a7b62014b3ffda0fe49c504d8a",
+      "repo_sha256": "69e1bf9e1d665354767a6d58924ce929ab39132e3611c080cfc388c5fac32a1e",
+      "status": "changed from tested hash fd70deeddd8aca3a8e40c93e95761fbff69de9a7b62014b3ffda0fe49c504d8a"
+    },
+    {
+      "repo_path": "memory/rig/PREFLIGHT.py",
+      "tested_sha256": "3bfc5da128b057f6046f0f73bf84e8e0fc1916d3c9f15c0c1c2e4457cc191c35",
+      "repo_sha256": "02f7c91706a3cd1a0f22a98d5d138e58844b307564b11d261f0ea1a2a026d396",
+      "status": "changed from tested hash 3bfc5da128b057f6046f0f73bf84e8e0fc1916d3c9f15c0c1c2e4457cc191c35"
+    },
+    {
+      "repo_path": "memory/rig/PREPARE.py",
+      "tested_sha256": "3b348c902c17cf24bac4bf0285e699999680cc6e33d8b19b420d5d898f82359d",
+      "repo_sha256": "5f234bb8644d44bb9469f4f00b15f05a5703644503d97f87c885047e30622b5e",
+      "status": "changed from tested hash 3b348c902c17cf24bac4bf0285e699999680cc6e33d8b19b420d5d898f82359d"
+    },
+    {
+      "repo_path": "memory/rig/SERVICE_HEALTH.py",
+      "tested_sha256": "eb11ceb8bb4938b39a78e124e2977ecad0042fa4371c627a1ce5c4b322e55344",
+      "repo_sha256": "a4519950c3b34b8cb31105f10361a8552b2f19b13b7c18b1768b4f355bda2630",
+      "status": "changed from tested hash eb11ceb8bb4938b39a78e124e2977ecad0042fa4371c627a1ce5c4b322e55344"
+    },
+    {
+      "repo_path": "memory/rig/Dockerfile",
+      "tested_sha256": "cf1ac16ad66b209d99385345ac370b62b111ec338db8278293116cae22d64c71",
+      "repo_sha256": "d5f5806291b5f23620ca4a3af05aafb3df492d7d8e2162e6b7cecb77137718a2",
+      "status": "changed from tested hash cf1ac16ad66b209d99385345ac370b62b111ec338db8278293116cae22d64c71"
+    },
+    {
+      "repo_path": "memory/rig/RUN_HOST.sh",
+      "tested_sha256": "513f65b7e57278821354071ff49608c6cef6ff0c9ac66fdcfe66abe73071aa5c",
+      "repo_sha256": "f538e7a0aeacf582388c408710dd27ca2cf9817c6d91408ff1dbacae2eed7129",
+      "status": "changed from tested hash 513f65b7e57278821354071ff49608c6cef6ff0c9ac66fdcfe66abe73071aa5c"
+    },
+    {
+      "repo_path": "memory/rig/STAGE_SOURCE.py",
+      "tested_sha256": "ec69b5a70ba117a67c1fe0070b96a99487936ab49c08bd922cbd7ec6c9872510",
+      "repo_sha256": "9db786ac9ae9de32fa96c01079f814278f04360e8e72a9881865fa52ff30db90",
+      "status": "changed from tested hash ec69b5a70ba117a67c1fe0070b96a99487936ab49c08bd922cbd7ec6c9872510"
+    },
+    {
+      "repo_path": "memory/rig/STAGE_DEPS.py",
+      "tested_sha256": "91efce73c7691d5293a747878e1959a5ba9856a844890046e46ed4206d938d3b",
+      "repo_sha256": "a52579d527256054abab1ac6cf72ee9371e4cd950a85123f9e4d502d7457ed01",
+      "status": "changed from tested hash 91efce73c7691d5293a747878e1959a5ba9856a844890046e46ed4206d938d3b"
+    },
+    {
+      "repo_path": "memory/rig-r5-obscura/RUN.py",
+      "tested_sha256": "d65885bdfaf665396c1177e35bbb792d6b1140148b0d0d5f151b40947984447f",
+      "repo_sha256": "1f1684f4c5885f7cfc0c97eb58e623c7ea46eccbaece8e84edbd53305eeec3b5",
+      "status": "changed from tested hash d65885bdfaf665396c1177e35bbb792d6b1140148b0d0d5f151b40947984447f"
+    },
+    {
+      "repo_path": "memory/rig-r5-obscura/LOCAL_NETWORK.py",
+      "tested_sha256": "61b25dafa479f308aad507ffc3de2b371599fb145f99427c3c5ba9538038313f",
+      "repo_sha256": "61b25dafa479f308aad507ffc3de2b371599fb145f99427c3c5ba9538038313f",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "memory/rig-r5-obscura/RUN_HOST.sh",
+      "tested_sha256": "23a803ef765631b06bc9dd5f5da33a609598f1025864fd011d91229137792464",
+      "repo_sha256": "1aa9a1bd36848f32d9e9ccf1dc19c6bde3464f01f50e1f86b017eed4a2bae7e7",
+      "status": "changed from tested hash 23a803ef765631b06bc9dd5f5da33a609598f1025864fd011d91229137792464"
+    },
+    {
+      "repo_path": "engine-image/.dockerignore",
+      "tested_sha256": "75fde39a09ee63fe06ac12cf1d4b411e1534b7676169529c0cc16b3bb8bc764e",
+      "repo_sha256": "75fde39a09ee63fe06ac12cf1d4b411e1534b7676169529c0cc16b3bb8bc764e",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "engine-image/SMOKE.py",
+      "tested_sha256": "837cf446e70c541bd179b9003f6a287a8f7109abe8ff0df694d0d1376524c254",
+      "repo_sha256": "837cf446e70c541bd179b9003f6a287a8f7109abe8ff0df694d0d1376524c254",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "engine-image/Dockerfile",
+      "tested_sha256": "2160510cbf6c0984fb5c2edc31989ff6f93a40ed7b20d1dd1661b5727c2a0ccb",
+      "repo_sha256": "2d5a8a8f41b782143087241193dc01816e1f430e36e648ab85257fe38bf6c4c4",
+      "status": "changed from tested hash 2160510cbf6c0984fb5c2edc31989ff6f93a40ed7b20d1dd1661b5727c2a0ccb"
+    },
+    {
+      "repo_path": "engine-image/PREPARE.py",
+      "tested_sha256": "a6c684863b497a7a6bd1cd431af35634048664e65807f62d1b42544b8cfcf1ee",
+      "repo_sha256": "689997d9821bddab96a1cdbb2d0f1d4cef69b5b31f6130c56369832d407948e5",
+      "status": "changed from tested hash a6c684863b497a7a6bd1cd431af35634048664e65807f62d1b42544b8cfcf1ee"
+    },
+    {
+      "repo_path": "engine-image/ARTIFACTS.json",
+      "tested_sha256": null,
+      "repo_sha256": "92f2dd6b34e68a75628b9819526c765d972ab2b7480444cc22c9654475cdefa8",
+      "status": "not hash-pinned in the sources; copied with changes",
+      "note": "The kit FILES.json lists an earlier ARTIFACTS.json (sha256 7b658f37...) written before the Chrome SHA256 was pinned; this is the later pinned version."
+    },
+    {
+      "repo_path": "engine-image/PREPARE_CHROME.py",
+      "tested_sha256": null,
+      "repo_sha256": "fcd2e3eaa3bb8af1eb753157645cdaf612375ec376d0abe4d1ece70cdb8fc26b",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "engine-image/RUN_HOST.sh",
+      "tested_sha256": null,
+      "repo_sha256": "af39667538a53298f20cd90061546bb0746ad964465e8067d709664fb8fa66c2",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "results/board/RESULTS.json",
+      "tested_sha256": null,
+      "repo_sha256": "01568734232a4da4c968e45c495eac7000e7c37f7ac2949ad56c37bb882e1f18",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/PATH.json",
+      "tested_sha256": null,
+      "repo_sha256": "5f9a6cf699b804f0ed36a7651fe523deaa7dba4040a5975bfdf643abca9a0880",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/CORE_PATH.json",
+      "tested_sha256": null,
+      "repo_sha256": "3d40eb93b8e8d49f2c19931e350fdf63279265f8692511482c9230882e1eff94",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/CAPTURE_MANIFEST.json",
+      "tested_sha256": null,
+      "repo_sha256": "93ded4a638b8376ff657a1231e7268f9fa446db67fd73ee3c5bd609b87c4eeb4",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/BASELINE_STATE.json",
+      "tested_sha256": null,
+      "repo_sha256": "a6a9675b69a48e007466ecb1fb456a802fe9688f7177ed1a5cf6b80d8afffba3",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/CORE_HARNESS_SHA256.json",
+      "tested_sha256": null,
+      "repo_sha256": "cab23599c210a85c8b8b02dd6a526f064d5f3700e72ec9ec997d681f4a91b8e0",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/BUILD_SETTINGS_DIFF.txt",
+      "tested_sha256": null,
+      "repo_sha256": "335aec495790930f327a5d213c00cd19f3f581e0ec4fcfa92b2d52c2a8a2aa3c",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/chrome/INITIAL_STATE.json",
+      "tested_sha256": null,
+      "repo_sha256": "a6a9675b69a48e007466ecb1fb456a802fe9688f7177ed1a5cf6b80d8afffba3",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/chrome/RESULT.json",
+      "tested_sha256": null,
+      "repo_sha256": "25eac44139d0b33333845d9e6cc35e7d34d5dbf232c1e3e8e773334bb87dd13a",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/chrome/STEPS.json",
+      "tested_sha256": null,
+      "repo_sha256": "d61a29f4a797afaab9e992e15035325546fe799c3822b46ef23c1e28faee3126",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/chrome/THEME_SETUP.json",
+      "tested_sha256": null,
+      "repo_sha256": "6d02db2cc990fa7830ba98f434d11d6dcd639051582b2744fe8b23b6d9722c32",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/chrome/ENGINE_HASHES.json",
+      "tested_sha256": null,
+      "repo_sha256": "9833e90a291d1dcba784606ec2d977c415441ca527c9e3f78274def3a408f81e",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/chrome/ISOLATION.json",
+      "tested_sha256": null,
+      "repo_sha256": "4bbd3de9e8ec10b0ca598a9e133d832c842fc177246ae83375e81fd18585b8b6",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/INITIAL_STATE.json",
+      "tested_sha256": null,
+      "repo_sha256": "a6a9675b69a48e007466ecb1fb456a802fe9688f7177ed1a5cf6b80d8afffba3",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/RESULT.json",
+      "tested_sha256": null,
+      "repo_sha256": "c7031cfabef692338f6571ce5f964115373ea1ba71ca897dfaa815c3bacca712",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/STEPS.json",
+      "tested_sha256": null,
+      "repo_sha256": "643aa9b8eb6ddb5407a7e116ae8d8fecf90efbd5ed26bf8c6eed659572adfbb4",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/STOP.json",
+      "tested_sha256": null,
+      "repo_sha256": "fceedd92ad910b89196fea28dcb05cab7f4b162918ac05f82f994e897246504a",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/THEME_SETUP.json",
+      "tested_sha256": null,
+      "repo_sha256": "2de26190f8367f5a77acc3055df986bfdbcba95a9e2d9d6e330425f2fa8af3c0",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/ENGINE_HASHES.json",
+      "tested_sha256": null,
+      "repo_sha256": "9833e90a291d1dcba784606ec2d977c415441ca527c9e3f78274def3a408f81e",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/ISOLATION.json",
+      "tested_sha256": null,
+      "repo_sha256": "4bbd3de9e8ec10b0ca598a9e133d832c842fc177246ae83375e81fd18585b8b6",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/obscura/PHONE_AT_STOP.json",
+      "tested_sha256": null,
+      "repo_sha256": "e87ed7acc7da20ae9e8fad5605bb03811a15b54ba7dd177e5cedd61b1b676836",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/INITIAL_STATE.json",
+      "tested_sha256": null,
+      "repo_sha256": "a6a9675b69a48e007466ecb1fb456a802fe9688f7177ed1a5cf6b80d8afffba3",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/RESULT.json",
+      "tested_sha256": null,
+      "repo_sha256": "2408bcf3b05df7083765d0b5ded4a53a09fc13493ed427b8b107a5cb3aee7ac1",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/STEPS.json",
+      "tested_sha256": null,
+      "repo_sha256": "3c862dc28bc4704a3262345afc9e9ab325c92bfac521a14e062db7e4e66f4e88",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/STOP.json",
+      "tested_sha256": null,
+      "repo_sha256": "254cec7993528aacfebe4086dc75eb9e5a859d411b5fcfe49e0d047163b205f6",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/THEME_SETUP.json",
+      "tested_sha256": null,
+      "repo_sha256": "d12084e90172c3704dc15b1159ffebf00541416d0c3b12d48cb7494756b8968e",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/ENGINE_HASHES.json",
+      "tested_sha256": null,
+      "repo_sha256": "9833e90a291d1dcba784606ec2d977c415441ca527c9e3f78274def3a408f81e",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/ISOLATION.json",
+      "tested_sha256": null,
+      "repo_sha256": "4bbd3de9e8ec10b0ca598a9e133d832c842fc177246ae83375e81fd18585b8b6",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/moli/PHONE_AT_STOP.json",
+      "tested_sha256": null,
+      "repo_sha256": "e7433cb0767c86b33d569d4f39445fca1caa455995bfc36cd3e8cd4b304275b0",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/INITIAL_STATE.json",
+      "tested_sha256": null,
+      "repo_sha256": "a6a9675b69a48e007466ecb1fb456a802fe9688f7177ed1a5cf6b80d8afffba3",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/RESULT.json",
+      "tested_sha256": null,
+      "repo_sha256": "decfd16c6cdea6f94a89dc2a93987613e96623a8587a32fb9265249edcfef46b",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/STEPS.json",
+      "tested_sha256": null,
+      "repo_sha256": "e5a6d35d3c2a47398b003e6c21792092f9e75d73cca88a5297088906d3eea683",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/STOP.json",
+      "tested_sha256": null,
+      "repo_sha256": "881ed316a6cb5b7ad6129839e9a763a86d80a12b48f59945739684427e6c8410",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/THEME_SETUP.json",
+      "tested_sha256": null,
+      "repo_sha256": "9809a1b1df79398c3263a4dc1ae40b39cfd009c32a51d0686e5d3817fce6b5f5",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/ENGINE_HASHES.json",
+      "tested_sha256": null,
+      "repo_sha256": "9833e90a291d1dcba784606ec2d977c415441ca527c9e3f78274def3a408f81e",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/ISOLATION.json",
+      "tested_sha256": null,
+      "repo_sha256": "4bbd3de9e8ec10b0ca598a9e133d832c842fc177246ae83375e81fd18585b8b6",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/lightpanda/PHONE_AT_STOP.json",
+      "tested_sha256": null,
+      "repo_sha256": "603f719cb856d93bab98f1845445f4863763107eb29957fe63110c14be67e7bb",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_CHROME_07_ADD_CARD_3.png",
+      "tested_sha256": "d725a3b20f2e98125d5a0b4b691a92a56e9fd4f7115601afd1cf075d2c3e2f14",
+      "repo_sha256": "d725a3b20f2e98125d5a0b4b691a92a56e9fd4f7115601afd1cf075d2c3e2f14",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_CHROME_10_EDIT_CARD_DIALOG.png",
+      "tested_sha256": "249f52942ababd4a642d22a6296512e3fabb27a33716dfa862289f8e3e9cb381",
+      "repo_sha256": "249f52942ababd4a642d22a6296512e3fabb27a33716dfa862289f8e3e9cb381",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_CHROME_11_PHONE_BOARD.png",
+      "tested_sha256": "d77307e4837a0cdb13dbeb0e53ffde7392f901c65b964285e154d9bf30dae1b2",
+      "repo_sha256": "d77307e4837a0cdb13dbeb0e53ffde7392f901c65b964285e154d9bf30dae1b2",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_OBSCURA_07_ADD_CARD_3.png",
+      "tested_sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "repo_sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_OBSCURA_08_DRAG_CARD.png",
+      "tested_sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "repo_sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_OBSCURA_PHONE_AT_STOP.png",
+      "tested_sha256": "7e5fffb9481979b58f79877cbecca7c1ae3f934e4dd252df56f38b042ffe6551",
+      "repo_sha256": "7e5fffb9481979b58f79877cbecca7c1ae3f934e4dd252df56f38b042ffe6551",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_MOLI_01_SIGN_IN.png",
+      "tested_sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+      "repo_sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_MOLI_02_CREATE_BOARD.png",
+      "tested_sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+      "repo_sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_MOLI_PHONE_AT_STOP.png",
+      "tested_sha256": "3319bebcdb3a9fe4c5660be0240fd860ad163417e0c16d1799b1a9af4654420a",
+      "repo_sha256": "3319bebcdb3a9fe4c5660be0240fd860ad163417e0c16d1799b1a9af4654420a",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_LIGHTPANDA_01_SIGN_IN.png",
+      "tested_sha256": "af399fcf5c21c9269415f58af269b89831e746dc9f72697aa61f6bfb5892f9d5",
+      "repo_sha256": "af399fcf5c21c9269415f58af269b89831e746dc9f72697aa61f6bfb5892f9d5",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_LIGHTPANDA_03_ADD_LIST_1.png",
+      "tested_sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+      "repo_sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/board/captures/KAN_LIGHTPANDA_PHONE_AT_STOP.png",
+      "tested_sha256": "b84029502ae4044320b4f4dc7194acfcff43859614c943dbcada2187505e6ade",
+      "repo_sha256": "b84029502ae4044320b4f4dc7194acfcff43859614c943dbcada2187505e6ade",
+      "status": "identical to tested hash"
+    },
+    {
+      "repo_path": "results/memory/FOUR_ENGINE_COMPARISON.json",
+      "tested_sha256": null,
+      "repo_sha256": "395093c7deba8e0e8a4927e7c73cfe4b82c2ea47c9aa44b9ec1835363f4fc517",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "results/memory/chrome/BENCHMARK_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "0673d3ab35c8ccf869b8a3c76e2cee62b16d5f1bfcb9f5bb4223513180f4ed2d",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "results/memory/chrome/BENCHMARK_MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "0a43d982c3280883047bd9f056d407c05f28a3e55715b574b95df94deea025d7",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/chrome/MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "28705fdc6a30ae0572e547b02d826ec05ab81bcde42fe176fe86ab5040867b29",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/chrome/VERIFIED_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "3981279eb21931e1392263cd124ab016445b85f5d86466afaa607d369c94b12e",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/chrome/ENGINE_BINARIES_RECEIPT.json",
+      "tested_sha256": null,
+      "repo_sha256": "063306c0816b0973772abe903900a5cf8fcee3497721c4d580777c3bcc31669a",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/lightpanda/BENCHMARK_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "497f15265f6b59c96c3f10b8749d403aa6f971341b7515204910b41908dee981",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "results/memory/lightpanda/BENCHMARK_MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "95e7749830a3ebcba679598a6a67544564474c5c2afd22b0e9306bfa9cecd757",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/lightpanda/MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "108f655cd2061aeab02170da16a423ae5f0a9b8bc8868d75f0925c1b7bfa4cc4",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/lightpanda/VERIFIED_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "db048efe3ce43beb01cd61aa1d58c34595cc4f48f184dc64874079f3e8fc3b09",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/lightpanda/ENGINE_BINARIES_RECEIPT.json",
+      "tested_sha256": null,
+      "repo_sha256": "063306c0816b0973772abe903900a5cf8fcee3497721c4d580777c3bcc31669a",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/obscura/BENCHMARK_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "d5e96fbca621fd083b4669c69c8ba91bdeeabd07de33201c114224031cc9c915",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "results/memory/obscura/BENCHMARK_MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "3c6c7f5c12c77a1657f6f73dd4d8f7fbf2c2d4153b5a69efea0e325d9248270f",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/obscura/MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "31fe67724813e89f2101e4ab2f2c425dc2a8487c330862fecb0bff17087f7a0f",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/obscura/VERIFIED_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "402570f1b4c64411e5aa65cebe6afabb1b1f1d82b7da423df606ed7c68b664ba",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/obscura/ENGINE_BINARIES_RECEIPT.json",
+      "tested_sha256": null,
+      "repo_sha256": "063306c0816b0973772abe903900a5cf8fcee3497721c4d580777c3bcc31669a",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/obscura/LOCAL_NETWORK_POLICY.json",
+      "tested_sha256": null,
+      "repo_sha256": "0ac8c7a420786dd06c6c46783dc3392f978409726c1966cdbe7d7d0fced08923",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/moli/BENCHMARK_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "05f576e564deda29870a3bd84c0ffeffbee873d60ee711a521b8e763d30b774d",
+      "status": "not hash-pinned in the sources; copied with changes"
+    },
+    {
+      "repo_path": "results/memory/moli/BENCHMARK_MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "1c13e30aacfb6aa7e671c72699f5050c7aa108468025f76c943eda2b91f5197c",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/moli/MEMORY.jsonl",
+      "tested_sha256": null,
+      "repo_sha256": "f282c67e0dea96832b6edeae7272c79d531ee45f6a94ab78e36fe43221eed6e0",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/moli/VERIFIED_SUMMARY.json",
+      "tested_sha256": null,
+      "repo_sha256": "3c2340fb2239a7a235d0d3e43e16b9c7377495b8f0000d7490873248a411921c",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    },
+    {
+      "repo_path": "results/memory/moli/ENGINE_BINARIES_RECEIPT.json",
+      "tested_sha256": null,
+      "repo_sha256": "063306c0816b0973772abe903900a5cf8fcee3497721c4d580777c3bcc31669a",
+      "status": "not hash-pinned in the sources; copied byte for byte"
+    }
+  ]
+}

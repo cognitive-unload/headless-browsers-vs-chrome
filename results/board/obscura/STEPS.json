@@ -1,0 +1,512 @@
+[
+  {
+    "number": 1,
+    "name": "sign-in",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": null,
+      "lists": null,
+      "cards": null
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nBoards\nImport\nNew\nActive\nArchived\n\nNo boards\n\nGet started by creating a new board\n\nCreate new board",
+      "url": "http://127.0.0.1:3000/boards",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "01-sign-in.png",
+      "sha256": "b85a537402435e139efbb12899d5e12015b22e88ff741ff3d1883c0cbf762b58",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 2,
+    "name": "create-board",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": null,
+      "cards": null
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\n\nNo lists\n\nGet started by creating a new list\n\nCreate new list\n\nBoard | Capture workspace",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "02-create-board.png",
+      "sha256": "e374d2828331e03d561ea3952d028410a35ac604eb021d55a2cd18254695f145",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 3,
+    "name": "add-list-1",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        }
+      ],
+      "cards": null
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\n\nBoard | Capture workspace",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "03-add-list-1.png",
+      "sha256": "a0b84dc28feff1d29fdfaed21ac4f2932b8affbd86771ff5c1ba3351d63fc506",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 4,
+    "name": "add-list-2",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "name": "Done",
+          "boardId": 1,
+          "index": 1
+        }
+      ],
+      "cards": null
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\n\nBoard | Capture workspace",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "04-add-list-2.png",
+      "sha256": "cfced60c4a461e9577a5e28887bf2696c055129554afa60e43d6ae7a1e554e5d",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 5,
+    "name": "add-card-1",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "name": "Done",
+          "boardId": 1,
+          "index": 1
+        }
+      ],
+      "cards": [
+        {
+          "id": 1,
+          "title": "Check mobile layout",
+          "description": null,
+          "listId": 1,
+          "index": 0
+        }
+      ]
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\nCheck mobile layout\n\nBoard | Capture workspace\n\nNew card\n\n\n\n\nTo do\nMembers\nLabels\nDue date\nCreate another\nCreate another\nCreate card",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "05-add-card-1.png",
+      "sha256": "9757fc9b00b3d273c585dc9b62eb6cb72f2b5f745cad0808798455d830406b0c",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 6,
+    "name": "add-card-2",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "name": "Done",
+          "boardId": 1,
+          "index": 1
+        }
+      ],
+      "cards": [
+        {
+          "id": 1,
+          "title": "Check mobile layout",
+          "description": null,
+          "listId": 1,
+          "index": 1
+        },
+        {
+          "id": 2,
+          "title": "Record UI walkthrough",
+          "description": null,
+          "listId": 1,
+          "index": 0
+        }
+      ]
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\nRecord UI walkthrough\nCW-1\nCheck mobile layout\n\nBoard | Capture workspace\n\nNew card\n\n\n\n\nTo do\nMembers\nLabels\nDue date\nCreate another\nCreate another\nCreate card",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "06-add-card-2.png",
+      "sha256": "e6eae6100b212ccb8edac3bb9e15ae801b2f4a4ea04d98529803f3e845a0da29",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 7,
+    "name": "add-card-3",
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "name": "Done",
+          "boardId": 1,
+          "index": 1
+        }
+      ],
+      "cards": [
+        {
+          "id": 1,
+          "title": "Check mobile layout",
+          "description": null,
+          "listId": 1,
+          "index": 2
+        },
+        {
+          "id": 2,
+          "title": "Record UI walkthrough",
+          "description": null,
+          "listId": 1,
+          "index": 1
+        },
+        {
+          "id": 3,
+          "title": "Review browser results",
+          "description": null,
+          "listId": 1,
+          "index": 0
+        }
+      ]
+    },
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\nCW-3\nReview browser results\nCW-2\nRecord UI walkthrough\nCW-1\nCheck mobile layout\n\nBoard | Capture workspace",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "action": "done",
+    "capture": {
+      "file": "07-add-card-3.png",
+      "sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "number": 8,
+    "name": "drag-card",
+    "action": "failed",
+    "error": "App observation deadline: document.querySelectorAll(\"[data-list-scroll-id]\")[1]?.textContent.includes(\"Check mobile layout\")",
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\nCW-3\nReview browser results\nCW-2\nRecord UI walkthrough\nCW-1\nCheck mobile layout\n\nBoard | Capture workspace",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "name": "Done",
+          "boardId": 1,
+          "index": 1
+        }
+      ],
+      "cards": [
+        {
+          "id": 1,
+          "title": "Check mobile layout",
+          "description": null,
+          "listId": 1,
+          "index": 2
+        },
+        {
+          "id": 2,
+          "title": "Record UI walkthrough",
+          "description": null,
+          "listId": 1,
+          "index": 1
+        },
+        {
+          "id": 3,
+          "title": "Review browser results",
+          "description": null,
+          "listId": 1,
+          "index": 0
+        }
+      ]
+    },
+    "capture": {
+      "file": "08-drag-card.png",
+      "sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  }
+]

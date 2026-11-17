@@ -1,0 +1,573 @@
+{
+  "note": "Generated from docker inspect receipts of the core-pass containers. Host paths, container IDs, host names and environment values are omitted; environment variable names are kept.",
+  "containers": {
+    "chrome": [
+      {
+        "name": "kan-fixture-chrome-browser",
+        "image": "sha256:d97a2c45d5d3a2e5ef3bedf8bee68fd53d018b62d152f0c67a51ac5e2046dc08",
+        "user": "1000:1000",
+        "network": "none",
+        "cpus": 1.25,
+        "memory_bytes": 2684354560,
+        "pids_limit": 1024,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/home/pwuser": "rw,nosuid,nodev,size=256m,uid=1000,gid=1000",
+          "/tmp": "rw,nosuid,nodev,size=1g,uid=1000,gid=1000"
+        },
+        "shm_size": 536870912,
+        "published_ports": {},
+        "extra_hosts": [
+          "telemetry.lightpanda.io:127.0.0.1"
+        ],
+        "mount_targets": [
+          "/opt/kan-capture",
+          "/out"
+        ],
+        "environment_names": [
+          "AGENT_BROWSER_NO_VERSION_CHECK",
+          "CURL_CA_BUNDLE",
+          "HOME",
+          "LANG",
+          "LC_ALL",
+          "LIGHTPANDA_DISABLE_TELEMETRY",
+          "PATH",
+          "PLAYWRIGHT_BROWSERS_PATH",
+          "PYTHONDONTWRITEBYTECODE",
+          "SSL_CERT_FILE"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 137,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-chrome-pg",
+        "image": "sha256:7296f210ae81031ec955dbad9a67a84fe958572a2153b8d0826a647522904dc1",
+        "user": "999:999",
+        "network": "container:<browser container>",
+        "cpus": 0.25,
+        "memory_bytes": 536870912,
+        "pids_limit": 128,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=999,gid=999",
+          "/var/lib/postgresql/data": "rw,nosuid,nodev,size=512m,uid=999,gid=999",
+          "/var/run/postgresql": "rw,nosuid,nodev,size=16m,uid=999,gid=999"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [],
+        "environment_names": [
+          "GOSU_VERSION",
+          "HOME",
+          "LANG",
+          "PATH",
+          "PGDATA",
+          "PG_MAJOR",
+          "PG_VERSION",
+          "POSTGRES_DB",
+          "POSTGRES_PASSWORD",
+          "POSTGRES_USER"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-chrome-web",
+        "image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+        "user": "1000:1000",
+        "network": "container:<browser container>",
+        "cpus": 0.5,
+        "memory_bytes": 1073741824,
+        "pids_limit": 256,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=1000,gid=1000"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [
+          "/app"
+        ],
+        "environment_names": [
+          "AWS_EC2_METADATA_DISABLED",
+          "BETTER_AUTH_SECRET",
+          "HOME",
+          "HOSTNAME",
+          "NEXT_PUBLIC_ALLOW_CREDENTIALS",
+          "NEXT_PUBLIC_BASE_URL",
+          "NEXT_PUBLIC_DISABLE_EMAIL",
+          "NEXT_TELEMETRY_DISABLED",
+          "NODE_VERSION",
+          "PATH",
+          "PORT",
+          "POSTGRES_URL",
+          "TURBO_TELEMETRY_DISABLED",
+          "YARN_VERSION"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      }
+    ],
+    "obscura": [
+      {
+        "name": "kan-fixture-obscura-browser",
+        "image": "sha256:d97a2c45d5d3a2e5ef3bedf8bee68fd53d018b62d152f0c67a51ac5e2046dc08",
+        "user": "1000:1000",
+        "network": "none",
+        "cpus": 1.25,
+        "memory_bytes": 2684354560,
+        "pids_limit": 1024,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/home/pwuser": "rw,nosuid,nodev,size=256m,uid=1000,gid=1000",
+          "/tmp": "rw,nosuid,nodev,size=1g,uid=1000,gid=1000"
+        },
+        "shm_size": 536870912,
+        "published_ports": {},
+        "extra_hosts": [
+          "telemetry.lightpanda.io:127.0.0.1"
+        ],
+        "mount_targets": [
+          "/opt/kan-capture",
+          "/out"
+        ],
+        "environment_names": [
+          "AGENT_BROWSER_NO_VERSION_CHECK",
+          "CURL_CA_BUNDLE",
+          "HOME",
+          "LANG",
+          "LC_ALL",
+          "LIGHTPANDA_DISABLE_TELEMETRY",
+          "PATH",
+          "PLAYWRIGHT_BROWSERS_PATH",
+          "PYTHONDONTWRITEBYTECODE",
+          "SSL_CERT_FILE"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 137,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-obscura-pg",
+        "image": "sha256:7296f210ae81031ec955dbad9a67a84fe958572a2153b8d0826a647522904dc1",
+        "user": "999:999",
+        "network": "container:<browser container>",
+        "cpus": 0.25,
+        "memory_bytes": 536870912,
+        "pids_limit": 128,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=999,gid=999",
+          "/var/lib/postgresql/data": "rw,nosuid,nodev,size=512m,uid=999,gid=999",
+          "/var/run/postgresql": "rw,nosuid,nodev,size=16m,uid=999,gid=999"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [],
+        "environment_names": [
+          "GOSU_VERSION",
+          "HOME",
+          "LANG",
+          "PATH",
+          "PGDATA",
+          "PG_MAJOR",
+          "PG_VERSION",
+          "POSTGRES_DB",
+          "POSTGRES_PASSWORD",
+          "POSTGRES_USER"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-obscura-web",
+        "image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+        "user": "1000:1000",
+        "network": "container:<browser container>",
+        "cpus": 0.5,
+        "memory_bytes": 1073741824,
+        "pids_limit": 256,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=1000,gid=1000"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [
+          "/app"
+        ],
+        "environment_names": [
+          "AWS_EC2_METADATA_DISABLED",
+          "BETTER_AUTH_SECRET",
+          "HOME",
+          "HOSTNAME",
+          "NEXT_PUBLIC_ALLOW_CREDENTIALS",
+          "NEXT_PUBLIC_BASE_URL",
+          "NEXT_PUBLIC_DISABLE_EMAIL",
+          "NEXT_TELEMETRY_DISABLED",
+          "NODE_VERSION",
+          "PATH",
+          "PORT",
+          "POSTGRES_URL",
+          "TURBO_TELEMETRY_DISABLED",
+          "YARN_VERSION"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      }
+    ],
+    "moli": [
+      {
+        "name": "kan-fixture-moli-browser",
+        "image": "sha256:d97a2c45d5d3a2e5ef3bedf8bee68fd53d018b62d152f0c67a51ac5e2046dc08",
+        "user": "1000:1000",
+        "network": "none",
+        "cpus": 1.25,
+        "memory_bytes": 2684354560,
+        "pids_limit": 1024,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/home/pwuser": "rw,nosuid,nodev,size=256m,uid=1000,gid=1000",
+          "/tmp": "rw,nosuid,nodev,size=1g,uid=1000,gid=1000"
+        },
+        "shm_size": 536870912,
+        "published_ports": {},
+        "extra_hosts": [
+          "telemetry.lightpanda.io:127.0.0.1"
+        ],
+        "mount_targets": [
+          "/opt/kan-capture",
+          "/out"
+        ],
+        "environment_names": [
+          "AGENT_BROWSER_NO_VERSION_CHECK",
+          "CURL_CA_BUNDLE",
+          "HOME",
+          "LANG",
+          "LC_ALL",
+          "LIGHTPANDA_DISABLE_TELEMETRY",
+          "PATH",
+          "PLAYWRIGHT_BROWSERS_PATH",
+          "PYTHONDONTWRITEBYTECODE",
+          "SSL_CERT_FILE"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 137,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-moli-pg",
+        "image": "sha256:7296f210ae81031ec955dbad9a67a84fe958572a2153b8d0826a647522904dc1",
+        "user": "999:999",
+        "network": "container:<browser container>",
+        "cpus": 0.25,
+        "memory_bytes": 536870912,
+        "pids_limit": 128,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=999,gid=999",
+          "/var/lib/postgresql/data": "rw,nosuid,nodev,size=512m,uid=999,gid=999",
+          "/var/run/postgresql": "rw,nosuid,nodev,size=16m,uid=999,gid=999"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [],
+        "environment_names": [
+          "GOSU_VERSION",
+          "HOME",
+          "LANG",
+          "PATH",
+          "PGDATA",
+          "PG_MAJOR",
+          "PG_VERSION",
+          "POSTGRES_DB",
+          "POSTGRES_PASSWORD",
+          "POSTGRES_USER"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-moli-web",
+        "image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+        "user": "1000:1000",
+        "network": "container:<browser container>",
+        "cpus": 0.5,
+        "memory_bytes": 1073741824,
+        "pids_limit": 256,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=1000,gid=1000"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [
+          "/app"
+        ],
+        "environment_names": [
+          "AWS_EC2_METADATA_DISABLED",
+          "BETTER_AUTH_SECRET",
+          "HOME",
+          "HOSTNAME",
+          "NEXT_PUBLIC_ALLOW_CREDENTIALS",
+          "NEXT_PUBLIC_BASE_URL",
+          "NEXT_PUBLIC_DISABLE_EMAIL",
+          "NEXT_TELEMETRY_DISABLED",
+          "NODE_VERSION",
+          "PATH",
+          "PORT",
+          "POSTGRES_URL",
+          "TURBO_TELEMETRY_DISABLED",
+          "YARN_VERSION"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      }
+    ],
+    "lightpanda": [
+      {
+        "name": "kan-fixture-lightpanda-browser",
+        "image": "sha256:d97a2c45d5d3a2e5ef3bedf8bee68fd53d018b62d152f0c67a51ac5e2046dc08",
+        "user": "1000:1000",
+        "network": "none",
+        "cpus": 1.25,
+        "memory_bytes": 2684354560,
+        "pids_limit": 1024,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/home/pwuser": "rw,nosuid,nodev,size=256m,uid=1000,gid=1000",
+          "/tmp": "rw,nosuid,nodev,size=1g,uid=1000,gid=1000"
+        },
+        "shm_size": 536870912,
+        "published_ports": {},
+        "extra_hosts": [
+          "telemetry.lightpanda.io:127.0.0.1"
+        ],
+        "mount_targets": [
+          "/opt/kan-capture",
+          "/out"
+        ],
+        "environment_names": [
+          "AGENT_BROWSER_NO_VERSION_CHECK",
+          "CURL_CA_BUNDLE",
+          "HOME",
+          "LANG",
+          "LC_ALL",
+          "LIGHTPANDA_DISABLE_TELEMETRY",
+          "PATH",
+          "PLAYWRIGHT_BROWSERS_PATH",
+          "PYTHONDONTWRITEBYTECODE",
+          "SSL_CERT_FILE"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 137,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-lightpanda-pg",
+        "image": "sha256:7296f210ae81031ec955dbad9a67a84fe958572a2153b8d0826a647522904dc1",
+        "user": "999:999",
+        "network": "container:<browser container>",
+        "cpus": 0.25,
+        "memory_bytes": 536870912,
+        "pids_limit": 128,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=999,gid=999",
+          "/var/lib/postgresql/data": "rw,nosuid,nodev,size=512m,uid=999,gid=999",
+          "/var/run/postgresql": "rw,nosuid,nodev,size=16m,uid=999,gid=999"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [],
+        "environment_names": [
+          "GOSU_VERSION",
+          "HOME",
+          "LANG",
+          "PATH",
+          "PGDATA",
+          "PG_MAJOR",
+          "PG_VERSION",
+          "POSTGRES_DB",
+          "POSTGRES_PASSWORD",
+          "POSTGRES_USER"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      },
+      {
+        "name": "kan-fixture-lightpanda-web",
+        "image": "sha256:07da4b3bda51fd1973b20d19d7139b289e0e065e364990bb26a80bb1e46cf757",
+        "user": "1000:1000",
+        "network": "container:<browser container>",
+        "cpus": 0.5,
+        "memory_bytes": 1073741824,
+        "pids_limit": 256,
+        "read_only_root": true,
+        "cap_drop": [
+          "ALL"
+        ],
+        "cap_add": null,
+        "privileged": false,
+        "security_opt": [
+          "no-new-privileges"
+        ],
+        "tmpfs": {
+          "/tmp": "rw,nosuid,nodev,size=128m,uid=1000,gid=1000"
+        },
+        "shm_size": 67108864,
+        "published_ports": {},
+        "extra_hosts": null,
+        "mount_targets": [
+          "/app"
+        ],
+        "environment_names": [
+          "AWS_EC2_METADATA_DISABLED",
+          "BETTER_AUTH_SECRET",
+          "HOME",
+          "HOSTNAME",
+          "NEXT_PUBLIC_ALLOW_CREDENTIALS",
+          "NEXT_PUBLIC_BASE_URL",
+          "NEXT_PUBLIC_DISABLE_EMAIL",
+          "NEXT_TELEMETRY_DISABLED",
+          "NODE_VERSION",
+          "PATH",
+          "PORT",
+          "POSTGRES_URL",
+          "TURBO_TELEMETRY_DISABLED",
+          "YARN_VERSION"
+        ],
+        "state": {
+          "status": "exited",
+          "exit_code": 0,
+          "oom_killed": false
+        }
+      }
+    ]
+  }
+}

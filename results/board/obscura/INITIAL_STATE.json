@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+      "name": "Capture User",
+      "email": "capture@example.test"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": 1,
+      "name": "Capture workspace"
+    }
+  ],
+  "boards": null,
+  "lists": null,
+  "cards": null
+}

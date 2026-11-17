@@ -1,0 +1,54 @@
+{
+  "engine": "lightpanda",
+  "passed": 2,
+  "attempted": 3,
+  "total": 11,
+  "failure": {
+    "number": 3,
+    "name": "add-list-1",
+    "action": "failed",
+    "error": "App observation deadline: (()=>{const e=[...document.querySelectorAll(\"button\")].find(e=>e.textContent.trim()===\"New list\" && e.getBoundingClientRect().width>0 && e.getBoundingClientRect().height>0 && !e.disabled);if(!e)return null;if(e.id)return \"#\"+CSS.escape(e.id);let p=e,s=[];while(p&&p.tagName!==\"HTML\"){let n=1,q=p;while(q=q.previousElementSibling)if(q.tagName===p.tagName)n++;s.unshift(p.tagName.toLowerCase()+\":nth-of-type(\"+n+\")\");p=p.parentElement;}return s.join(\" > \")})()",
+    "page": {
+      "dark": false,
+      "text": "",
+      "url": "http://127.0.0.1:3000/boards/a6co1aanzkbl",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "a6co1aanzkbl",
+          "name": "Release planning"
+        }
+      ],
+      "lists": null,
+      "cards": null
+    },
+    "capture": {
+      "file": "03-add-list-1.png",
+      "sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  }
+}

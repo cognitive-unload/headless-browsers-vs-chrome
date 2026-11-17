@@ -1,0 +1,55 @@
+{
+  "note": "Generated from the docker inspect receipt. Host paths, container ID, host name and environment values omitted.",
+  "image": "sha256:f90871d3287c819ab1d3c970d2e52cc8a330a59a2fd9cf46bb9b2b80d74d2b12",
+  "args": [
+    "/opt/rig/ENTRY.py",
+    "--engine",
+    "lightpanda",
+    "--phase",
+    "benchmark"
+  ],
+  "user": "1000:1000",
+  "network": "bridge",
+  "dns": [
+    "127.0.0.1"
+  ],
+  "cpus": 2.0,
+  "memory_bytes": 4294967296,
+  "pids_limit": 512,
+  "shm_size": 536870912,
+  "read_only_root": true,
+  "cap_drop": [
+    "ALL"
+  ],
+  "privileged": false,
+  "security_opt": [
+    "no-new-privileges"
+  ],
+  "tmpfs": {
+    "/home/pwuser": "rw,nosuid,nodev,size=256m,uid=1000,gid=1000",
+    "/tmp": "rw,nosuid,nodev,size=1g,uid=1000,gid=1000"
+  },
+  "extra_hosts": [
+    "telemetry.lightpanda.io:127.0.0.1"
+  ],
+  "published_ports": {},
+  "mount_targets": [
+    "/out"
+  ],
+  "environment_names": [
+    "AGENT_BROWSER_NO_VERSION_CHECK",
+    "CURL_CA_BUNDLE",
+    "HOME",
+    "LANG",
+    "LC_ALL",
+    "LIGHTPANDA_DISABLE_TELEMETRY",
+    "PATH",
+    "PLAYWRIGHT_BROWSERS_PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "SSL_CERT_FILE"
+  ],
+  "started": "2026-11-09T19:34:37.510636622Z",
+  "finished": "2026-11-09T19:34:51.552791771Z",
+  "exit_code": 0,
+  "oom_killed": false
+}

@@ -1,0 +1,200 @@
+{
+  "chrome": {
+    "engine": "chrome",
+    "passed": 11,
+    "attempted": 11,
+    "total": 11,
+    "failure": null
+  },
+  "obscura": {
+    "engine": "obscura",
+    "passed": 7,
+    "attempted": 8,
+    "total": 11,
+    "failure": {
+      "number": 8,
+      "name": "drag-card",
+      "action": "failed",
+      "error": "App observation deadline: document.querySelectorAll(\"[data-list-scroll-id]\")[1]?.textContent.includes(\"Check mobile layout\")",
+      "page": {
+        "dark": true,
+        "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\nCW-3\nReview browser results\nCW-2\nRecord UI walkthrough\nCW-1\nCheck mobile layout\n\nBoard | Capture workspace",
+        "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+        "viewport": [
+          1280,
+          720,
+          1
+        ]
+      },
+      "database": {
+        "users": [
+          {
+            "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+            "name": "Capture User",
+            "email": "capture@example.test"
+          }
+        ],
+        "workspaces": [
+          {
+            "id": 1,
+            "name": "Capture workspace"
+          }
+        ],
+        "boards": [
+          {
+            "id": 1,
+            "publicId": "udodotmhdiyz",
+            "name": "Release planning"
+          }
+        ],
+        "lists": [
+          {
+            "id": 1,
+            "name": "To do",
+            "boardId": 1,
+            "index": 0
+          },
+          {
+            "id": 2,
+            "name": "Done",
+            "boardId": 1,
+            "index": 1
+          }
+        ],
+        "cards": [
+          {
+            "id": 1,
+            "title": "Check mobile layout",
+            "description": null,
+            "listId": 1,
+            "index": 2
+          },
+          {
+            "id": 2,
+            "title": "Record UI walkthrough",
+            "description": null,
+            "listId": 1,
+            "index": 1
+          },
+          {
+            "id": 3,
+            "title": "Review browser results",
+            "description": null,
+            "listId": 1,
+            "index": 0
+          }
+        ]
+      },
+      "capture": {
+        "file": "08-drag-card.png",
+        "sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+        "dimensions": [
+          1280,
+          720
+        ]
+      }
+    }
+  },
+  "moli": {
+    "engine": "moli",
+    "passed": 1,
+    "attempted": 2,
+    "total": 11,
+    "failure": {
+      "number": 2,
+      "name": "create-board",
+      "action": "failed",
+      "error": "App observation deadline: (()=>{const e=[...document.querySelectorAll(\"button\")].find(e=>e.textContent.trim()===\"Create board\" && e.getBoundingClientRect().width>0 && e.getBoundingClientRect().height>0 && !e.disabled);if(!e)return null;if(e.id)return \"#\"+CSS.escape(e.id);let p=e,s=[];while(p&&p.tagName!==\"HTML\"){let n=1,q=p;while(q=q.previousElementSibling)if(q.tagName===p.tagName)n++;s.unshift(p.tagName.toLowerCase()+\":nth-of-type(\"+n+\")\");p=p.parentElement;}return s.join(\" > \")})()",
+      "page": {
+        "dark": true,
+        "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nBoards\nImport\nNew\nActive\nArchived\n\nNo boards\n\nGet started by creating a new board\n\nCreate new board",
+        "url": "http://127.0.0.1:3000/boards",
+        "viewport": [
+          1280,
+          720,
+          1
+        ]
+      },
+      "database": {
+        "users": [
+          {
+            "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+            "name": "Capture User",
+            "email": "capture@example.test"
+          }
+        ],
+        "workspaces": [
+          {
+            "id": 1,
+            "name": "Capture workspace"
+          }
+        ],
+        "boards": null,
+        "lists": null,
+        "cards": null
+      },
+      "capture": {
+        "file": "02-create-board.png",
+        "sha256": "1ff794de2a6d91f7a69b7b407a2df97f5f865c2a63350334134254ab51af4dc9",
+        "dimensions": [
+          1280,
+          720
+        ]
+      }
+    }
+  },
+  "lightpanda": {
+    "engine": "lightpanda",
+    "passed": 2,
+    "attempted": 3,
+    "total": 11,
+    "failure": {
+      "number": 3,
+      "name": "add-list-1",
+      "action": "failed",
+      "error": "App observation deadline: (()=>{const e=[...document.querySelectorAll(\"button\")].find(e=>e.textContent.trim()===\"New list\" && e.getBoundingClientRect().width>0 && e.getBoundingClientRect().height>0 && !e.disabled);if(!e)return null;if(e.id)return \"#\"+CSS.escape(e.id);let p=e,s=[];while(p&&p.tagName!==\"HTML\"){let n=1,q=p;while(q=q.previousElementSibling)if(q.tagName===p.tagName)n++;s.unshift(p.tagName.toLowerCase()+\":nth-of-type(\"+n+\")\");p=p.parentElement;}return s.join(\" > \")})()",
+      "page": {
+        "dark": false,
+        "text": "",
+        "url": "http://127.0.0.1:3000/boards/a6co1aanzkbl",
+        "viewport": [
+          1280,
+          720,
+          1
+        ]
+      },
+      "database": {
+        "users": [
+          {
+            "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+            "name": "Capture User",
+            "email": "capture@example.test"
+          }
+        ],
+        "workspaces": [
+          {
+            "id": 1,
+            "name": "Capture workspace"
+          }
+        ],
+        "boards": [
+          {
+            "id": 1,
+            "publicId": "a6co1aanzkbl",
+            "name": "Release planning"
+          }
+        ],
+        "lists": null,
+        "cards": null
+      },
+      "capture": {
+        "file": "03-add-list-1.png",
+        "sha256": "decbc57fa73147ed801796c5cd21b09ef9bc2483d72d5c335aed5f72f9940977",
+        "dimensions": [
+          1280,
+          720
+        ]
+      }
+    }
+  }
+}

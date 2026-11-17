@@ -1,0 +1,130 @@
+{
+  "packages": [
+    {
+      "name": "h2",
+      "version": "4.4.1",
+      "file": "h2-4.4.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/7e/22/e85faf23bd72a92d1921e37d674ca56eb298a3c8be31fdecef0ff2b3aaac/h2-4.4.1-py3-none-any.whl",
+      "sha256": "0e25f1462b23c9cb82d9eb02e28bc706dac2a68cb457c6a0d74d63c8a2a5d0e6",
+      "uploaded": "2026-08-03T11:44:59.164439Z",
+      "age_days": 98,
+      "under_seven_days": false,
+      "requires_dist": [
+        "hyperframe<7,>=6.1",
+        "hpack<5,>=4.2"
+      ],
+      "install_hook_flags": []
+    },
+    {
+      "name": "hpack",
+      "version": "4.2.0",
+      "file": "hpack-4.2.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/71/b4/4a9fcfb2aef6ba44d9073ecd301443aa00b3dac95de5619f2a7de7ec8a91/hpack-4.2.0-py3-none-any.whl",
+      "sha256": "858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986",
+      "uploaded": "2026-06-23T18:34:45.472685Z",
+      "age_days": 138,
+      "under_seven_days": false,
+      "requires_dist": null,
+      "install_hook_flags": []
+    },
+    {
+      "name": "hyperframe",
+      "version": "6.1.0",
+      "file": "hyperframe-6.1.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/48/30/47d0bf6072f7252e6521f3447ccfa40b421b6824517f82854703d0f5a98b/hyperframe-6.1.0-py3-none-any.whl",
+      "sha256": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5",
+      "uploaded": "2025-01-22T21:41:47.295426Z",
+      "age_days": 655,
+      "under_seven_days": false,
+      "requires_dist": null,
+      "install_hook_flags": []
+    },
+    {
+      "name": "html5lib",
+      "version": "1.1",
+      "file": "html5lib-1.1-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",
+      "sha256": "0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d",
+      "uploaded": "2020-06-22T23:32:36.781398Z",
+      "age_days": 2330,
+      "under_seven_days": false,
+      "requires_dist": [
+        "six (>=1.9)",
+        "webencodings",
+        "genshi ; extra == 'all'",
+        "chardet (>=2.2) ; extra == 'all'",
+        "lxml ; (platform_python_implementation == 'CPython') and extra == 'all'",
+        "chardet (>=2.2) ; extra == 'chardet'",
+        "genshi ; extra == 'genshi'",
+        "lxml ; (platform_python_implementation == 'CPython') and extra == 'lxml'"
+      ],
+      "install_hook_flags": []
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "file": "six-1.17.0-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "uploaded": "2024-12-04T17:35:26.475808Z",
+      "age_days": 704,
+      "under_seven_days": false,
+      "requires_dist": null,
+      "install_hook_flags": []
+    },
+    {
+      "name": "webencodings",
+      "version": "0.5.1",
+      "file": "webencodings-0.5.1-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",
+      "sha256": "a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78",
+      "uploaded": "2017-04-05T20:21:32.581689Z",
+      "age_days": 3504,
+      "under_seven_days": false,
+      "requires_dist": null,
+      "install_hook_flags": []
+    },
+    {
+      "name": "pywebsocket3",
+      "version": "4.0.2",
+      "file": "pywebsocket3-4.0.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/61/4f/17ab6a5108239b49dba9696608180733b9631f74f7b48ced25c2abc598a6/pywebsocket3-4.0.2.tar.gz",
+      "sha256": "2589ddc14cdd9ca600cc76551a7f4f8935837304790b72f371fd1a9e4986430f",
+      "uploaded": "2024-04-12T12:43:10.504490Z",
+      "age_days": 941,
+      "under_seven_days": false,
+      "requires_dist": [
+        "six"
+      ],
+      "install_hook_flags": [
+        "sdist setup.py present; never executed; copy package sources only"
+      ]
+    },
+    {
+      "name": "atomicwrites",
+      "version": "1.4.1",
+      "file": "atomicwrites-1.4.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/87/c6/53da25344e3e3a9c01095a89f16dbcda021c609ddb42dd6d7c0528236fb2/atomicwrites-1.4.1.tar.gz",
+      "sha256": "81b2c9071a49367a7f770170e5eec8cb66567cfbbc8c73d20ce5ca4a8d71cf11",
+      "uploaded": "2022-07-08T18:31:40.459492Z",
+      "age_days": 1584,
+      "under_seven_days": false,
+      "requires_dist": null,
+      "install_hook_flags": [
+        "sdist setup.py present; never executed; copy package sources only"
+      ]
+    }
+  ],
+  "osv": {
+    "results": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  }
+}

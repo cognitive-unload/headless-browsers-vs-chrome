@@ -1,0 +1,16 @@
+{
+  "iterations": 100,
+  "total_ms": 1488.185373,
+  "median_ms": 14.418416500000035,
+  "mean_ms": 14.748572999999993,
+  "peak_process_tree_pss_kib": 26100,
+  "memory_samples": 17,
+  "samples_with_missing_pids": 0,
+  "exit": 0,
+  "oom": false,
+  "stopped": true,
+  "services": [
+    "pass",
+    "pass"
+  ]
+}

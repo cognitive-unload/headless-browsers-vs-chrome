@@ -1,0 +1,19 @@
+{
+  "pngs": 4,
+  "referenced_png_records_verified": 2,
+  "exit": 0,
+  "oom": false,
+  "stopped": true,
+  "services": [
+    "pass",
+    "pass"
+  ],
+  "raw_only": false,
+  "iterations": 100,
+  "total_ms": 50819.176395999995,
+  "median_ms": 501.8777489999975,
+  "mean_ms": 506.6643104799999,
+  "peak_process_tree_pss_kib": 559499,
+  "memory_samples": 259,
+  "samples_with_missing_pids": 46
+}

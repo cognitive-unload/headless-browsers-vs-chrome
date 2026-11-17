@@ -1,0 +1,42 @@
+{
+  "source_commit": "a87412aebbeec8b6422337fca178fbb7e3ffc883",
+  "scope": "Campfire extraction workload port on the test host; one engine at a time; 100 fresh contexts, 800x600 DPR1; launch/build excluded; no scored screenshots or recording; not full sites/rendering/task results; not exact vendor or 60x reproduction",
+  "engines": {
+    "chrome": {
+      "iterations": 100,
+      "total_ms": 50819.176395999995,
+      "median_ms": 501.8777489999975,
+      "mean_ms": 506.6643104799999,
+      "sampled_peak_pss_kib": 559499,
+      "memory_samples": 259,
+      "samples_with_missing_pids": 46
+    },
+    "lightpanda": {
+      "iterations": 100,
+      "total_ms": 1488.185373,
+      "median_ms": 14.418416500000035,
+      "mean_ms": 14.748572999999993,
+      "sampled_peak_pss_kib": 26100,
+      "memory_samples": 17,
+      "samples_with_missing_pids": 0
+    },
+    "obscura": {
+      "iterations": 100,
+      "total_ms": 6255.172942,
+      "median_ms": 61.935494999999946,
+      "mean_ms": 62.397780350000005,
+      "sampled_peak_pss_kib": 58640,
+      "memory_samples": 63,
+      "samples_with_missing_pids": 0
+    },
+    "moli": {
+      "iterations": 100,
+      "total_ms": 13566.6273,
+      "median_ms": 136.32392100000015,
+      "mean_ms": 135.50505389000003,
+      "sampled_peak_pss_kib": 106129,
+      "memory_samples": 131,
+      "samples_with_missing_pids": 0
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "page": {
+    "dark": false,
+    "text": "",
+    "url": "http://127.0.0.1:3000/boards/a6co1aanzkbl",
+    "viewport": [
+      360,
+      720,
+      1
+    ]
+  },
+  "capture": {
+    "file": "phone-at-stop.png",
+    "sha256": "b84029502ae4044320b4f4dc7194acfcff43859614c943dbcada2187505e6ade",
+    "dimensions": [
+      360,
+      720
+    ]
+  }
+}

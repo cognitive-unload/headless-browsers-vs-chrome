@@ -1,0 +1,89 @@
+{
+  "engine": "obscura",
+  "passed": 7,
+  "attempted": 8,
+  "total": 11,
+  "failure": {
+    "number": 8,
+    "name": "drag-card",
+    "action": "failed",
+    "error": "App observation deadline: document.querySelectorAll(\"[data-list-scroll-id]\")[1]?.textContent.includes(\"Check mobile layout\")",
+    "page": {
+      "dark": true,
+      "text": "kan.bn\nC\nCapture workspace\nBoards\nTemplates\nMembers\nSettings\nCapture User\nVisibility\nLists\nCalendar\nFilter\nNew list\nCW-3\nReview browser results\nCW-2\nRecord UI walkthrough\nCW-1\nCheck mobile layout\n\nBoard | Capture workspace",
+      "url": "http://127.0.0.1:3000/boards/udodotmhdiyz",
+      "viewport": [
+        1280,
+        720,
+        1
+      ]
+    },
+    "database": {
+      "users": [
+        {
+          "id": "731cc93e-4718-4604-a761-7ada07c05f04",
+          "name": "Capture User",
+          "email": "capture@example.test"
+        }
+      ],
+      "workspaces": [
+        {
+          "id": 1,
+          "name": "Capture workspace"
+        }
+      ],
+      "boards": [
+        {
+          "id": 1,
+          "publicId": "udodotmhdiyz",
+          "name": "Release planning"
+        }
+      ],
+      "lists": [
+        {
+          "id": 1,
+          "name": "To do",
+          "boardId": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "name": "Done",
+          "boardId": 1,
+          "index": 1
+        }
+      ],
+      "cards": [
+        {
+          "id": 1,
+          "title": "Check mobile layout",
+          "description": null,
+          "listId": 1,
+          "index": 2
+        },
+        {
+          "id": 2,
+          "title": "Record UI walkthrough",
+          "description": null,
+          "listId": 1,
+          "index": 1
+        },
+        {
+          "id": 3,
+          "title": "Review browser results",
+          "description": null,
+          "listId": 1,
+          "index": 0
+        }
+      ]
+    },
+    "capture": {
+      "file": "08-drag-card.png",
+      "sha256": "e5f98d2490b77fb7feab141c915f370471c02f32922451805e63399775efca24",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  }
+}

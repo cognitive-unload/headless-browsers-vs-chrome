@@ -1,0 +1,40 @@
+{
+  "engine": "obscura",
+  "phase": "benchmark",
+  "docker_network": "none",
+  "namespace": {
+    "interfaces": [
+      {
+        "name": "lo",
+        "index": 1,
+        "flags": 73,
+        "ipv4": "127.0.0.1",
+        "ipv6": [
+          "00000000000000000000000000000001"
+        ]
+      },
+      {
+        "name": "tunl0",
+        "index": 2,
+        "flags": 128,
+        "ipv4": null,
+        "ipv6": []
+      }
+    ],
+    "ipv4_route_interfaces": [],
+    "ipv6_route_interfaces": [
+      "lo",
+      "lo",
+      "lo"
+    ],
+    "capabilities": {
+      "CapInh": 0,
+      "CapPrm": 0,
+      "CapEff": 0,
+      "CapBnd": 0,
+      "CapAmb": 0
+    }
+  },
+  "private_network_opt_in": true,
+  "scope": "local fixtures; loopback active; optional tunl0 down and unnumbered; no non-loopback routes or capabilities"
+}

@@ -1,0 +1,15 @@
+{
+  "iterations": 100,
+  "total_ms": 13566.6273,
+  "median_ms": 136.32392100000015,
+  "mean_ms": 135.50505389000003,
+  "peak_process_tree_pss_kib": 106129,
+  "memory_samples": 131,
+  "samples_with_missing_pids": 0,
+  "exit": 0,
+  "oom": false,
+  "stopped": true,
+  "services": "pass before and after",
+  "pngs": 4,
+  "all_extractions_equal_chrome_reference": true
+}

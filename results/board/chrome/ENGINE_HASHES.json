@@ -1,0 +1,28 @@
+{
+  "agent-browser": {
+    "sha256": "c4351f3802ffa5254d8c69f20a52e2fcf56925c6016fcf4203db25a07d811379",
+    "state": "verified"
+  },
+  "lightpanda": {
+    "sha256": "53eb34da09159dcf8f04865dbfe3e63e9a652062684495aa7ced5ddd7c82e8b0",
+    "state": "verified"
+  },
+  "moli": {
+    "sha256": "48f14e3bc36a5f450836080cf802acb62a5814d9b5e2e3f4056b7c583fa1d2e0",
+    "state": "verified"
+  },
+  "obscura": {
+    "sha256": "c1400eec0b1572ea9b583b1544feafb0b25cea4e155b353dbba9c144d94ae6e3",
+    "state": "verified"
+  },
+  "obscura-worker": {
+    "sha256": "d1025e540736b494d5c3fefe5abc09f3a774c65d9be891d818b0eb374d34dd72",
+    "state": "verified"
+  },
+  "chrome": {
+    "sha256": "41ea350a7f209da77c14d1df3924d71ac66988623e71d44459b49a3dceb1c14e",
+    "state": "present-in-pinned-chrome-image",
+    "image": "sha256:7e44291716e341b3c0426e6d740a581e073fe0076d177a0a2b155f9fd9a3f3ca",
+    "note": "Binary hash recorded; image ID and prior archive receipt bind publisher provenance."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "viewport": [1280, 720], "dpr": 1, "ready_timeout_seconds": 45,
+  "sites": [
+    {"id":"wikipedia","url":"https://en.wikipedia.org/wiki/Web_browser","ready":"document.querySelector('#firstHeading') && document.querySelector('#mw-content-text p')"},
+    {"id":"github","url":"https://github.com/vercel-labs/agent-browser/issues","ready":"(()=>{const m=document.querySelector('main');return m && !m.querySelector('[aria-busy=true]') && (m.querySelector('[data-testid=issue-pr-title-link],[data-testid=issue-row],[id^=issue_]') || /No results|No issues/.test(m.innerText))})()"},
+    {"id":"mdn","url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript","ready":"document.querySelector('main h1') && document.querySelector('article')"},
+    {"id":"bbc","url":"https://www.bbc.com/news","ready":"document.querySelectorAll('[data-testid=card-headline]').length >= 3"},
+    {"id":"amazon","url":"https://www.amazon.com/","ready":"document.querySelector('#twotabsearchtextbox') && document.querySelector('#nav-logo-sprites')"},
+    {"id":"youtube","url":"https://www.youtube.com/watch?v=jNQXAC9IVRw","ready":"document.querySelector('ytd-watch-flexy h1') && document.querySelector('video') && document.querySelector('video').readyState >= 2"},
+    {"id":"reddit","url":"https://www.reddit.com/r/programming/comments/xcbii6/","ready":"document.querySelector('shreddit-post') || document.querySelector('[data-test-id=post-content]')"},
+    {"id":"stackoverflow","url":"https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array","ready":"document.querySelector('#question-header h1') && document.querySelector('#question .s-prose')"},
+    {"id":"airbnb","url":"https://www.airbnb.com/s/London--United-Kingdom/homes","ready":"document.querySelector('[data-testid=card-container]') || document.querySelector('[itemprop=itemListElement]')"},
+    {"id":"maps","url":"https://www.google.com/maps/@51.5074,-0.1278,12z","ready":"document.querySelector('#searchboxinput') && (document.querySelector('canvas') || document.querySelector('[role=application]'))"},
+    {"id":"excalidraw","url":"https://excalidraw.com/","ready":"document.querySelector('canvas') && document.querySelector('.App-toolbar')"},
+    {"id":"hackernews","url":"https://news.ycombinator.com/","ready":"document.querySelectorAll('.athing').length > 10 && document.querySelector('.titleline a')"}
+  ],
+  "tasks": [
+    {"id":"wikipedia","start":"https://en.wikipedia.org/wiki/Web_browser","steps":[
+      {"id":"search","commands":[["fill","input[name=search]","browser engine comparison"],["press","input[name=search]","Enter"]],"ready":"document.querySelectorAll('.mw-search-results li').length >= 2"},
+      {"id":"second-result","commands":[["click",".mw-search-results li:nth-child(2) .mw-search-result-heading a"]],"ready":"!location.href.includes('Special:Search') && !!document.querySelector('#firstHeading')"}
+    ]},
+    {"id":"github","start":"https://github.com/vercel-labs/agent-browser/issues","steps":[
+      {"id":"label-filter","commands":[["fill","input[name=q]","is:issue is:open label:bug"],["press","input[name=q]","Enter"]],"ready":"(()=>{const m=document.querySelector('main');return new URL(location.href).searchParams.get('q')?.includes('label:bug') && m && !m.querySelector('[aria-busy=true]') && (m.querySelector('[data-testid=issue-pr-title-link],[data-testid=issue-row],[id^=issue_]') || /No results|No issues/.test(m.innerText))})()"}
+    ]},
+    {"id":"amazon","start":"https://www.amazon.com/","steps":[
+      {"id":"search","commands":[["fill","#twotabsearchtextbox","usb c cable"],["press","#twotabsearchtextbox","Enter"]],"ready":"document.querySelector('div[data-component-type=s-search-result] h2')"},
+      {"id":"product","commands":[["click-first-product"]],"ready":"location.pathname.includes('/dp/') && !!document.querySelector('#productTitle')"}
+    ]}
+  ]
+}
